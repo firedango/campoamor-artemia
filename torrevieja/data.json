@@ -1,106 +1,67 @@
 {
-  "updated_at": "2026-08-27T21:05:41.452112+00:00",
+  "updated_at": "2026-08-27T23:25:51+02:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
     "min_eur": 100000,
     "max_eur": 500000
   },
+  "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
+      "id": "TRV-0001",
       "date": "2026-08-27",
-      "name": "¿Es 2026 un buen momento para comprar vivienda en la Co",
+      "name": "Richiesta acquisto casa/appartamento Torrevieja-Orihuela Costa",
       "profile": "",
       "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con interesse immobiliare",
-      "purpose": "Investimento",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "+34 629 581 574",
-      "email": "contactos@casasymar.es",
-      "source": "casasymar.com",
-      "url": "https://casasymar.com/noticias/250/es-2026-un-buen-momento-para-comprar-vivienda-en-la-costa-blanca",
-      "summary": "###### Móvil y whatsapp\n\n+34 629 581 574\n\n###### Email\n\n contactos@casasymar.es \n\n###### Dirección\n\n Avda. Habaneras 121 · Torrevieja (Alicante) 03182\n\n© 2026 Casas y Mar · Todos los derechos reservados · Nota legal · Privacidad · Cookies · Mapa Web · Propiedades vendidas\n\nDiseño & CRM: Mediaelx\n\nVendiendo un apartamento en Calas Blanca Torrevieja\n\nInmobilia",
-      "score": 85,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0001"
-    },
-    {
-      "date": "2026-08-27",
-      "name": "6 bedroom apartment for sale in Valencia, Alicante, Torrevieja, Spain",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con interesse immobiliare",
-      "purpose": "Investimento",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "rightmove.co.uk",
-      "url": "https://www.rightmove.co.uk/properties/92246367",
-      "summary": "At Your Dream Home we are ideally positioned to help you find your Spanish property and ensure it is well looked after. Our team of property experts have years of experience in the Spanish real estate market and can offer you the best property advice and service which makes us one of the most experienced and well trusted Spanish property companies caring for",
-      "score": 85,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0002"
-    },
-    {
-      "date": "2026-08-27",
-      "name": "Hola, soy Jose Felix. Algo TORREVIEJA : VIVIENDA IDEAL ...",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
+      "language": "Spagnolo",
       "intent": "Acquisto",
-      "request": "Acquisto immobile",
+      "request": "Casa o appartamento con 3 camere, 2 bagni, grande terrazza o giardino e piscina",
       "purpose": "Da qualificare",
-      "zone": "Torrevieja",
+      "zone": "Torrevieja o Orihuela Costa",
       "budget_min": null,
       "budget_max": null,
       "phone": "",
       "email": "",
       "source": "facebook.com",
       "url": "https://www.facebook.com/groups/torreviejaorihuelacosta/posts/1378546884403928",
-      "summary": "Queremos comprar una casa en Torrevieja u Orihuela Costa. Una casa o apartamento de 3 habitaciones y 2 baños. Con una gran terraza o jardín. Y con piscina",
-      "score": 75,
+      "summary_original": "Queremos comprar una casa en Torrevieja u Orihuela Costa. Una casa o apartamento de 3 habitaciones y 2 baños. Con una gran terraza o jardín. Y con piscina",
+      "summary_it": "Vuole acquistare una casa o un appartamento a Torrevieja o Orihuela Costa, con 3 camere, 2 bagni, grande terrazza o giardino e piscina.",
+      "summary": "Vuole acquistare una casa o un appartamento a Torrevieja o Orihuela Costa, con 3 camere, 2 bagni, grande terrazza o giardino e piscina.",
+      "score": 78,
       "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0003"
+      "status": "Da verificare alla fonte"
     },
     {
+      "id": "TRV-0002",
       "date": "2026-08-27",
-      "name": "Hola, busco comprar un piso con terraza en Torrevieja ...",
+      "name": "Acquirente cerca appartamento vicino Playa de Los Locos",
       "profile": "",
       "country": "Da verificare",
-      "language": "Da verificare",
+      "language": "Spagnolo",
       "intent": "Acquisto",
-      "request": "Acquisto immobile",
+      "request": "Appartamento con terrazza, 2-3 camere, vicino alla spiaggia",
       "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "150.000-180.000",
+      "zone": "Torrevieja - Playa de Los Locos",
+      "budget_min": 150000,
+      "budget_max": 180000,
+      "phone": "",
       "email": "",
       "source": "facebook.com",
       "url": "https://www.facebook.com/groups/1142298476669901/posts/2018697589029981",
-      "summary": "Hola, busco comprar un piso con terraza en Torrevieja, cerca de la playa de Los Locos, de 2 a 3 habitaciones. Mi presupuesto rondaría los 150.000-180.000.",
-      "score": 75,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0004"
+      "summary_original": "Hola, busco comprar un piso con terraza en Torrevieja, cerca de la playa de Los Locos, de 2 a 3 habitaciones. Mi presupuesto rondaría los 150.000-180.000.",
+      "summary_it": "Cerca di acquistare un appartamento con terrazza a Torrevieja, vicino a Playa de Los Locos, con 2-3 camere. Budget indicativo: 150.000-180.000 euro.",
+      "summary": "Cerca di acquistare un appartamento con terrazza a Torrevieja, vicino a Playa de Los Locos, con 2-3 camere. Budget indicativo: 150.000-180.000 euro.",
+      "score": 88,
+      "priority": "Alta",
+      "status": "Da verificare alla fonte"
     }
   ],
   "market": {
-    "sources_checked": 71,
-    "new_signals": 4,
-    "high_priority": 2,
-    "with_contact": 2,
+    "sources_checked": 80,
+    "new_signals": 2,
+    "high_priority": 1,
+    "with_contact": 0,
     "population": 113453,
     "foreign_residents": 62000,
     "top_foreign_communities": [
@@ -110,11 +71,40 @@
       "Svezia",
       "Polonia"
     ],
-    "notes": "Torrevieja conta oltre 62.000 residenti stranieri su 113.453 residenti registrati al 12 maggio 2026. Monitoraggio Tavily predisposto; nessun lead diretto nuovo viene pubblicato senza verifica.",
-    "sources": [
-      "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its",
-      "https://torrevieja.es/en/noticias/2026-01-07-torrevieja-begins-2026-with-110500-inhabitants-and-adds-more-than-4100-new"
+    "notes": "Ricerca internazionale estesa a Francia, Germania/Austria, Scandinavia, Belgio/Benelux e Paesi dell'Est. Sono stati esclusi come lead attivi gli annunci di immobili in vendita, gli articoli promozionali e i thread troppo vecchi. Tutti i riepiloghi operativi sono in italiano.",
+    "international_sources": [
+      {
+        "market": "Germania/Austria",
+        "type": "Forum richieste acquisto",
+        "status": "Da monitorare",
+        "url": "https://costa-blanca-forum.de/viewforum.php?f=382"
+      },
+      {
+        "market": "Germania e paesi germanofoni",
+        "type": "Portale immobiliare locale con sezione richieste di acquisto",
+        "status": "Da monitorare",
+        "url": "https://www.torrevieja.de/immobilienangebote-und-gesuche/"
+      },
+      {
+        "market": "Francia/Belgio francofono",
+        "type": "Forum expat con discussioni acquisto Torrevieja",
+        "status": "Da monitorare; thread diretti trovati ma non freschi",
+        "url": "https://www.expat.com/fr/forum/europe/espagne/alicante/403618-torrevieja-acheter-ou-pas.html"
+      },
+      {
+        "market": "Francia",
+        "type": "Portale immobiliare francofono Costa Blanca",
+        "status": "Intelligence/offerta, non buyer lead",
+        "url": "https://maisoncostablanca.com/"
+      },
+      {
+        "market": "Internazionale",
+        "type": "Dati ufficiali popolazione straniera",
+        "status": "Intelligence",
+        "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
+      }
     ],
-    "last_tavily_run": "2026-08-27T21:05:41.452112+00:00"
+    "last_tavily_run": "2026-08-27T21:05:41.452112+00:00",
+    "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
