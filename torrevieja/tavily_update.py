@@ -11,7 +11,7 @@ if not API_KEY:
 
 QUERIES = [
     '"Torrevieja" ("looking to buy" OR "want to buy" OR "buying apartment" OR "moving to Torrevieja") property',
-    '"Torrevieja" ("busco comprar" OR "quiero comprar" OR "comprar apartamento" OR "invertir en vivienda")',
+    '"Torrevieja" ("busco comprar" OR "quiero comprar" OR "queremos comprar" OR "invertir en vivienda")',
     '"Torrevieja" ("property investment" OR "real estate investment" OR "cash investor" OR "capital to invest")',
     '"Torrevieja" ("köpa lägenhet" OR "köpa bostad" OR "investera fastighet")',
     '"Torrevieja" ("kupić mieszkanie" OR "kupić nieruchomość" OR "inwestycja nieruchomości")',
@@ -20,12 +20,24 @@ QUERIES = [
     '"Torrevieja" ("купити квартиру" OR "купити нерухомість" OR "інвестиції в нерухомість")'
 ]
 
-DIRECT = re.compile(r"\b(i am|i'm|we are|we're|i want|we want|i need|we need|looking to|planning to|moving to|busco|quiero|queremos|cerco|chcę|szukam|jeg vil|vi vil|jag vill|vi vill|хочу|ищу|шукаю|хочемо)\b", re.I)
-BUY = re.compile(r"\b(buy|buying|purchase|property|apartment|house|real estate|comprar|compra|vivienda|apartamento|inversi[oó]n|köpa|bostad|fastighet|kupić|nieruchomo|kjøpe|bolig|eiendom|купить|недвиж|купити|нерухом)\b", re.I)
-INVEST = re.compile(r"\b(invest|investment|investor|capital|cash|liquidity|yield|roi|invertir|inversi[oó]n|inversor|capital|liquidez|investera|inwest|инвест|інвест)\b", re.I)
-PHONE = re.compile(r"(?<!\d)(?:\+?\d[\d\s().-]{7,}\d)(?!\d)")
+STRONG_DIRECT = re.compile(
+    r"(looking to buy|want to buy|we want to buy|planning to buy|i am buying|we are buying|"
+    r"busco comprar|quiero comprar|queremos comprar|estoy buscando comprar|"
+    r"cerco.*comprare|voglio comprare|"
+    r"chc[eę].*kupi[cć]|szukam.*kupi[cć]|"
+    r"jeg vil.*kj[oø]pe|vi vil.*kj[oø]pe|"
+    r"jag vill.*k[oö]pa|vi vill.*k[oö]pa|"
+    r"хочу.*купить|ищу.*купить|шукаю.*купити|хочемо.*купити)", re.I)
+INVESTOR_DIRECT = re.compile(
+    r"(i have|we have|available capital|cash available|capital to invest|liquidity to invest|"
+    r"tengo.*(?:capital|liquidez|dinero).*invert|tenemos.*(?:capital|liquidez|dinero).*invert|"
+    r"busco.*invertir|quiero.*invertir|queremos.*invertir|"
+    r"mam.*kapita.*inwest|har.*kapital.*invest|имею.*капитал.*инвест|маю.*капітал.*інвест)", re.I)
+INVEST = re.compile(r"\b(invest|investment|investor|capital|cash|liquidity|yield|roi|invertir|inversi[oó]n|inversor|liquidez|investera|inwest|инвест|інвест)\b", re.I)
 EMAIL = re.compile(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", re.I)
-MONEY = re.compile(r"(?:€|EUR\s*|£|GBP\s*|\$|USD\s*)\s*([1-9]\d{1,3}(?:[.,]\d{3})+|[1-9]\d{4,5})|([1-9]\d{2,3})\s*k\b", re.I)
+MONEY = re.compile(r"(?:€|EUR\s*|£|GBP\s*|\$|USD\s*)?\s*([1-9]\d{1,3}(?:[.,]\d{3})+|[1-9]\d{4,5})(?:\s*(?:-|–|to|a)\s*(?:€|EUR\s*|£|GBP\s*|\$|USD\s*)?\s*([1-9]\d{1,3}(?:[.,]\d{3})+|[1-9]\d{4,5}))?|([1-9]\d{2,3})\s*k\b", re.I)
+EXCLUDE_TITLE = re.compile(r"\b(for sale|en venta|property for sale|properties for sale|good time to buy|buen momento para comprar|market report|guide|news|blog)\b", re.I)
+
 
 def tavily(query):
     payload = json.dumps({
@@ -42,44 +54,68 @@ def tavily(query):
     req = urllib.request.Request(API_URL, data=payload, method="POST", headers={
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json",
-        "User-Agent": "TorreviejaLeadMonitor/1.0"
+        "User-Agent": "TorreviejaLeadMonitor/1.1"
     })
     with urllib.request.urlopen(req, timeout=45) as r:
         return json.load(r)
 
-def euros(text):
+
+def parse_amount(raw):
+    if not raw:
+        return None
+    raw = raw.replace(".", "").replace(",", "")
+    try:
+        return int(raw)
+    except ValueError:
+        return None
+
+
+def budget_range(text):
     vals=[]
     for m in MONEY.finditer(text):
-        raw=(m.group(1) or m.group(2) or "").replace(".","").replace(",","")
-        try:
-            n=int(raw)
-            if m.group(2): n*=1000
-            if 100000 <= n <= 500000: vals.append(n)
-        except ValueError: pass
-    return max(vals) if vals else None
+        if m.group(3):
+            n=int(m.group(3))*1000
+            vals.append(n)
+        else:
+            for g in (m.group(1), m.group(2)):
+                n=parse_amount(g)
+                if n: vals.append(n)
+    vals=[n for n in vals if 100000 <= n <= 500000]
+    if not vals:
+        return None, None
+    return min(vals), max(vals)
+
+
+def direct_intent(text):
+    return bool(STRONG_DIRECT.search(text) or INVESTOR_DIRECT.search(text))
+
 
 def score(text, url):
-    s=0
-    if "torrevieja" in text.lower(): s+=30
-    if DIRECT.search(text): s+=25
-    if BUY.search(text): s+=20
-    if INVEST.search(text): s+=10
-    if euros(text): s+=10
-    if any(x in url.lower() for x in ["reddit.com","forum","expat"]): s+=5
+    s=30 if "torrevieja" in text.lower() else 0
+    if STRONG_DIRECT.search(text): s += 35
+    if INVESTOR_DIRECT.search(text): s += 35
+    if INVEST.search(text): s += 10
+    bmin,bmax=budget_range(text)
+    if bmin or bmax: s += 15
+    if any(x in url.lower() for x in ["facebook.com/groups/", "reddit.com/r/", "forum", "expat"]): s += 10
     return min(s,100)
+
 
 def classify(item):
     title=item.get("title") or ""
     content=item.get("content") or ""
     url=item.get("url") or ""
     text=f"{title}\n{content}"
-    sc=score(text,url)
-    if sc < 70 or not DIRECT.search(text) or not BUY.search(text):
+    if EXCLUDE_TITLE.search(title) and not direct_intent(content):
         return None
-    inv=bool(INVEST.search(text))
-    b=euros(text)
+    if not direct_intent(text):
+        return None
+    sc=score(text,url)
+    if sc < 70:
+        return None
+    inv=bool(INVESTOR_DIRECT.search(text))
+    bmin,bmax=budget_range(text)
     emails=EMAIL.findall(text)
-    phones=[p.strip() for p in PHONE.findall(text)]
     return {
         "date": datetime.now(timezone.utc).date().isoformat(),
         "name": title[:110] or "Lead web",
@@ -87,13 +123,13 @@ def classify(item):
         "country": "Da verificare",
         "language": "Da verificare",
         "intent": "Investimento immobiliare" if inv else "Acquisto",
-        "request": "Investitore con interesse immobiliare" if inv else "Acquisto immobile",
+        "request": "Investitore con capitale/liquidità" if inv else "Acquisto immobile",
         "purpose": "Investimento" if inv else "Da qualificare",
         "zone": "Torrevieja",
-        "budget_min": 100000 if b else None,
-        "budget_max": b,
-        "phone": phones[0] if phones else "",
-        "email": emails[0] if emails else "",
+        "budget_min": bmin,
+        "budget_max": bmax,
+        "phone": "",
+        "email": emails[0] if emails and any(x in url.lower() for x in ["facebook.com/groups/", "reddit.com/r/", "forum", "expat"]) else "",
         "source": urllib.parse.urlparse(url).netloc.replace("www.","") if url else "Web",
         "url": url,
         "summary": content[:360],
@@ -123,10 +159,11 @@ try:
 except Exception:
     data={"area":"Torrevieja","currency":"EUR","leads":[],"market":{}}
 
-existing={x.get("url"):x for x in data.get("leads",[]) if x.get("url")}
+# Rebuild Tavily-derived leads each run to remove stale false positives.
+# Keep only records that still satisfy the stricter direct-intent rules.
+leads=[]
 for lead in candidates:
-    existing[lead["url"]]=lead
-leads=list(existing.values())
+    leads.append(lead)
 leads.sort(key=lambda x:(x.get("priority")!="Alta",-(x.get("score") or 0),x.get("date") or ""))
 leads=leads[:200]
 for i,x in enumerate(leads,1): x["id"]=f"TRV-{i:04d}"
@@ -148,4 +185,4 @@ data.update({
     }
 })
 OUT.write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding="utf-8")
-print(f"Updated {OUT}: {len(candidates)} candidates, {len(leads)} stored leads")
+print(f"Updated {OUT}: {len(candidates)} qualified direct leads, {len(leads)} stored leads")
