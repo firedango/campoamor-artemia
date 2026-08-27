@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Torrevieja Buyer Lead Dashboard</title>
+  <style>
+    :root{--blue:#0b3b74;--blue2:#145aa6;--orange:#f28c28;--bg:#f5f8fc;--text:#18324d;--muted:#6b7d90;--white:#fff;--border:#dce6f1;--green:#198754;--shadow:0 10px 30px rgba(12,55,103,.08)}
+    *{box-sizing:border-box}body{margin:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    header{background:linear-gradient(135deg,var(--blue),var(--blue2));color:white;padding:22px 18px 34px}
+    .wrap{max-width:1180px;margin:auto}.top{display:flex;justify-content:space-between;gap:18px;align-items:flex-start;flex-wrap:wrap}
+    h1{margin:0;font-size:clamp(24px,5vw,38px)}.sub{margin-top:8px;opacity:.9;font-size:14px}.actions{display:flex;gap:10px;flex-wrap:wrap}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:12px;text-decoration:none;font-weight:700;font-size:13px;border:1px solid rgba(255,255,255,.25)}
+    .btn.orange{background:var(--orange);color:white;border-color:var(--orange)}.btn.ghost{color:white;background:rgba(255,255,255,.08)}
+    main{max-width:1180px;margin:-18px auto 40px;padding:0 18px}.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}.card{background:white;border:1px solid var(--border);border-radius:18px;padding:18px;box-shadow:var(--shadow)}
+    .k{font-size:12px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);font-weight:800}.v{font-size:31px;font-weight:900;margin-top:7px;color:var(--blue)}.hint{font-size:12px;color:var(--muted);margin-top:6px}
+    .section{margin-top:18px}.section h2{font-size:18px;margin:0 0 12px;color:var(--blue)}.filters{display:grid;grid-template-columns:2fr repeat(4,1fr);gap:10px}
+    input,select{width:100%;padding:11px 12px;border:1px solid var(--border);border-radius:11px;background:white;color:var(--text)}
+    .tablewrap{overflow:auto;border-radius:16px;border:1px solid var(--border);background:white}table{border-collapse:collapse;width:100%;min-width:1050px}th,td{padding:12px 11px;border-bottom:1px solid #edf2f7;text-align:left;font-size:13px;vertical-align:top}th{position:sticky;top:0;background:#f8fbff;color:var(--blue);font-size:11px;text-transform:uppercase;letter-spacing:.04em}tr:hover td{background:#fbfdff}
+    .pill{display:inline-block;padding:5px 8px;border-radius:999px;font-size:11px;font-weight:800}.high{background:#fff0e2;color:#a94c00}.mid{background:#eef5ff;color:#245d9e}.low{background:#edf7f1;color:#267449}
+    .empty{padding:34px;text-align:center;color:var(--muted)}.meta{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:10px}.footer{font-size:12px;color:var(--muted);text-align:center;margin-top:20px}
+    @media(max-width:900px){.grid{grid-template-columns:repeat(2,1fr)}.filters{grid-template-columns:1fr 1fr}}@media(max-width:560px){header{padding-bottom:30px}.grid{grid-template-columns:1fr 1fr;gap:10px}.card{padding:14px}.v{font-size:25px}.filters{grid-template-columns:1fr}.actions{width:100%}.btn{flex:1;justify-content:center}.tablewrap{border-radius:12px}}
+  </style>
+</head>
+<body>
+<header><div class="wrap"><div class="top"><div><h1>Torrevieja Buyer Lead Dashboard</h1><div class="sub">Acquirenti • trasferimento • seconda casa • investimento • affitti brevi</div></div><div class="actions"><a class="btn ghost" href="https://docs.google.com/spreadsheets/d/1QYG2TnQuG7wOGGM-BacbrgegFY_gyq5CPYwGYkfr9sY/edit" target="_blank" rel="noopener">Apri Google Sheet</a><button class="btn orange" onclick="loadData()">Aggiorna ora</button></div></div></div></header>
+<main>
+  <div class="grid">
+    <div class="card"><div class="k">Lead totali</div><div class="v" id="kTotal">0</div><div class="hint">Buyer intent rilevati</div></div>
+    <div class="card"><div class="k">Alta priorità</div><div class="v" id="kHigh">0</div><div class="hint">Score ≥ 80</div></div>
+    <div class="card"><div class="k">Con contatto</div><div class="v" id="kContact">0</div><div class="hint">Telefono o email pubblicati</div></div>
+    <div class="card"><div class="k">Budget medio</div><div class="v" id="kBudget">—</div><div class="hint">Sui lead con budget dichiarato</div></div>
+  </div>
+
+  <div class="section card">
+    <h2>Filtra opportunità</h2>
+    <div class="filters">
+      <input id="q" placeholder="Cerca nome, zona, paese, esigenza..." oninput="render()" />
+      <select id="priority" onchange="render()"><option value="">Tutte priorità</option><option>Alta</option><option>Media</option><option>Bassa</option></select>
+      <select id="purpose" onchange="render()"><option value="">Tutte finalità</option><option>Trasferimento</option><option>Seconda casa</option><option>Investimento</option><option>Affitto breve</option></select>
+      <select id="country" onchange="render()"><option value="">Tutti i paesi</option></select>
+      <select id="source" onchange="render()"><option value="">Tutte le fonti</option></select>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Lead acquirenti</h2>
+    <div class="tablewrap"><table><thead><tr><th>Data</th><th>Lead</th><th>Paese</th><th>Cosa cerca</th><th>Zona</th><th>Budget</th><th>Finalità</th><th>Contatto</th><th>Fonte</th><th>Score</th><th>Priorità</th></tr></thead><tbody id="rows"></tbody></table><div class="empty" id="empty">Nessun lead reale ancora caricato. La struttura è pronta per l'alimentazione quotidiana.</div></div>
+    <div class="meta"><div id="lastUpdate">Ultimo aggiornamento: —</div><div id="countShown">0 lead visualizzati</div></div>
+  </div>
+
+  <div class="footer">Dashboard operativa Torrevieja • dati di contatto solo se resi pubblici volontariamente nella fonte</div>
+</main>
+<script>
+let DATA={leads:[],updated_at:null};
+function euro(n){return Number.isFinite(+n)?new Intl.NumberFormat('it-IT',{style:'currency',currency:'EUR',maximumFractionDigits:0}).format(+n):'—'}
+function esc(s=''){return String(s).replace(/[&<>"']/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#039;'}[m]))}
+function priority(score,p){if(p)return p;score=+score||0;return score>=80?'Alta':score>=55?'Media':'Bassa'}
+function refreshFilters(){const countries=[...new Set(DATA.leads.map(x=>x.country).filter(Boolean))].sort();const sources=[...new Set(DATA.leads.map(x=>x.source).filter(Boolean))].sort();for(const [id,vals] of [['country',countries],['source',sources]]){const el=document.getElementById(id),cur=el.value;while(el.options.length>1)el.remove(1);vals.forEach(v=>el.add(new Option(v,v)));el.value=cur}}
+function kpis(){const leads=DATA.leads||[];document.getElementById('kTotal').textContent=leads.length;document.getElementById('kHigh').textContent=leads.filter(x=>priority(x.score,x.priority)==='Alta').length;document.getElementById('kContact').textContent=leads.filter(x=>x.phone||x.email).length;const budgets=leads.map(x=>+x.budget_max||+x.budget||0).filter(Boolean);document.getElementById('kBudget').textContent=budgets.length?euro(budgets.reduce((a,b)=>a+b,0)/budgets.length):'—'}
+function render(){const q=document.getElementById('q').value.toLowerCase(),p=document.getElementById('priority').value,pu=document.getElementById('purpose').value,c=document.getElementById('country').value,s=document.getElementById('source').value;let rows=(DATA.leads||[]).filter(x=>{const hay=JSON.stringify(x).toLowerCase();return(!q||hay.includes(q))&&(!p||priority(x.score,x.priority)===p)&&(!pu||String(x.purpose||'').includes(pu))&&(!c||x.country===c)&&(!s||x.source===s)});const tb=document.getElementById('rows');tb.innerHTML=rows.map(x=>{const pr=priority(x.score,x.priority),cls=pr==='Alta'?'high':pr==='Media'?'mid':'low';const contact=[x.phone,x.email].filter(Boolean).map(esc).join('<br>')||'—';const src=x.url?`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.source||'Apri fonte')}</a>`:esc(x.source||'—');return `<tr><td>${esc(x.date||'—')}</td><td><strong>${esc(x.name||x.profile||'Lead')}</strong><br><span style="color:#6b7d90">${esc(x.summary||'')}</span></td><td>${esc(x.country||x.language||'—')}</td><td>${esc(x.request||x.intent||'Acquisto')}</td><td>${esc(x.area||x.zone||'Torrevieja')}</td><td>${euro(x.budget_max||x.budget)}</td><td>${esc(x.purpose||'—')}</td><td>${contact}</td><td>${src}</td><td><strong>${esc(x.score??'—')}</strong></td><td><span class="pill ${cls}">${pr}</span></td></tr>`}).join('');document.getElementById('empty').style.display=rows.length?'none':'block';document.getElementById('countShown').textContent=`${rows.length} lead visualizzati`}
+async function loadData(){try{const r=await fetch('./data.json?ts='+Date.now(),{cache:'no-store'});DATA=await r.json();if(!Array.isArray(DATA.leads))DATA.leads=[];refreshFilters();kpis();render();document.getElementById('lastUpdate').textContent='Ultimo aggiornamento: '+(DATA.updated_at?new Date(DATA.updated_at).toLocaleString('it-IT'):'—')}catch(e){document.getElementById('lastUpdate').textContent='Errore lettura dati: '+e.message}}
+loadData();
+</script>
+</body>
+</html>
