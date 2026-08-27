@@ -1,12 +1,30 @@
 {
-  "updated_at": "2026-08-27T21:31:00+02:00",
+  "updated_at": "2026-08-27T22:39:00+02:00",
   "area": "Torrevieja",
   "currency": "EUR",
+  "budget_filter": {
+    "min_eur": 100000,
+    "max_eur": 500000
+  },
   "leads": [],
   "market": {
-    "sources_checked": 0,
-    "new_signals": 0,
+    "sources_checked": 2,
+    "new_signals": 2,
     "high_priority": 0,
-    "with_contact": 0
+    "with_contact": 0,
+    "population": 113453,
+    "foreign_residents": 62000,
+    "top_foreign_communities": [
+      "Ucraina",
+      "Russia",
+      "Regno Unito",
+      "Svezia",
+      "Polonia"
+    ],
+    "notes": "Torrevieja conta oltre 62.000 residenti stranieri su 113.453 residenti registrati al 12 maggio 2026. Monitoraggio Tavily predisposto; nessun lead diretto nuovo viene pubblicato senza verifica.",
+    "sources": [
+      "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its",
+      "https://torrevieja.es/en/noticias/2026-01-07-torrevieja-begins-2026-with-110500-inhabitants-and-adds-more-than-4100-new"
+    ]
   }
 }
