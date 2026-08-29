@@ -1,0 +1,16 @@
+{
+  "updated": "29/08/2026",
+  "progetto": "Villaggio Aurora · Villino 1",
+  "regola": "Le fatture di compendio entrano nel Villino 1 solo dopo conferma del criterio di imputazione.",
+  "costi": [
+    {"id":"COSTO-002","data":"16/06/2026","fornitore":"Giancarlo Camardella","documento":"770","categoria":"SPESE NOTARILI / ATTI","importoTotale":1934.22,"divisore":11,"stato":"Confermato","fonte":"https://drive.google.com/file/d/1Z_ZeRan4D1JYgYbcF8Ml-XtPHYmWRvIp/view?usp=drivesdk"},
+    {"id":"COSTO-003","data":"24/06/2026","fornitore":"Giancarlo Camardella","documento":"797","categoria":"SPESE NOTARILI / COMPRAVENDITA","importoTotale":28518.98,"divisore":11,"stato":"Confermato","fonte":"https://drive.google.com/file/d/1a8lLToI9J7kn6wtpETq4SEnE9k77-nvX/view?usp=drivesdk"},
+    {"id":"COSTO-004","data":"30/06/2026","fornitore":"TIPOLITO F.L. SRL","documento":"422","categoria":"STAMPA / COMUNICAZIONE","importoTotale":268.40,"divisore":11,"stato":"Confermato","fonte":"https://drive.google.com/file/d/1rPp4hS7VIEhjso6x5H_sAJ9OM3yOSXHf/view?usp=drivesdk"},
+    {"id":"COSTO-005","data":"01/07/2026","fornitore":"BRICOMAN ITALIA S.R.L.","documento":"0110020016918","categoria":"MATERIALI / ATTREZZATURA","importoTotale":40.90,"divisore":11,"stato":"Confermato","fonte":"https://drive.google.com/file/d/1NTotM5bP20aO6drfFY1T4Vi84RdkfklM/view?usp=drivesdk"},
+    {"id":"COSTO-006","data":"06/07/2026","fornitore":"SPAZIO UFFICIO SRL","documento":"1/1726","categoria":"SERVIZI / STAMPA-SCANSIONE","importoTotale":390.40,"divisore":11,"stato":"Confermato","fonte":"https://drive.google.com/file/d/1QIZyw1p1kLIL6k5Ymo5x2yZJrrK3I80g/view?usp=drivesdk"},
+    {"id":"COSTO-007","data":"17/08/2026","fornitore":"Guido Natali","documento":"FPR 13/26","categoria":"PRESTAZIONI TECNICHE / ACCONTO","importoTotale":2330.04,"divisore":11,"stato":"Confermato","fonte":"https://drive.google.com/file/d/1knaDIXxlg874PhJhyAiVqHQ_DSAn6MMu/view?usp=drivesdk","nota":"Documento PDF indicato come bozza / non valido ai fini fiscali: mantenere verifica documentale."}
+  ],
+  "evidenzePagamento": [
+    {"id":"COSTO-008","data":"26/06/2026","fornitore":"TIPOLITO F.L. SRL","documento":"BONIFICO 26/06/2026","importoTotale":268.40,"stato":"Escluso dal totale","fonte":"https://drive.google.com/file/d/1h2G0cejTvxD3Myag57lxJEKr_LrI-xHi/view?usp=drivesdk","nota":"Evidenza di pagamento della fattura 422; esclusa per evitare doppio conteggio."}
+  ]
+}
