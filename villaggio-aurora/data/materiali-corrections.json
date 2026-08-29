@@ -1,0 +1,11 @@
+{
+  "updated": "29/08/2026",
+  "materiali": [
+    {"id":8,"categoria":"Pareti interne","scenario":"MALTA_PREMIX","prodotto":"Intonaco di fondo fibrato Fassa KD2 25 kg","codice":"10061589","quantita":256,"formato":"sacco 25 kg","prezzoNetto":2.83,"totaleNetto":724.48,"fornitore":"Tecnomat - riferimento Rezzato","fonte":"https://www.tecnomat.it/it/intonaco-di-fondo-fibrato-fassa-kd2-25kg-10061589/","stato":"Benchmark alternativo"},
+    {"id":61,"categoria":"Pareti interne","scenario":"MALTA_PREMIX","prodotto":"Intonaco finitura civile Fassa IG21 bianco 25 kg","codice":"12102123","quantita":49,"formato":"sacco 25 kg","prezzoNetto":6.27,"totaleNetto":307.23,"fornitore":"Tecnomat - riferimento Rezzato","fonte":"https://www.tecnomat.it/it/intonaco-finitura-calce-cem-ig21-25kgbco-12102123/","stato":"Benchmark alternativo"},
+    {"id":62,"categoria":"Pareti interne","scenario":"MALTA","prodotto":"Cemento Italcementi CEM II/B-LL 32,5 Tecnocem grigio 25 kg","codice":"10072395","quantita":47,"formato":"sacco 25 kg","prezzoNetto":4.18,"totaleNetto":196.46,"fornitore":"Tecnomat - riferimento Rezzato","fonte":"https://www.tecnomat.it/it/cemento-grigio-italcementi-32-5-25-kg-10072395/","stato":"Benchmark"},
+    {"id":63,"categoria":"Pareti interne","scenario":"MALTA","prodotto":"Calce idrata Grigolin CL 80-S superventilata 25 kg","codice":"25049719","quantita":16,"formato":"sacco 25 kg","prezzoNetto":4.59,"totaleNetto":73.44,"fornitore":"Tecnomat - riferimento Rezzato","fonte":"https://www.tecnomat.it/it/calce-idrata-grigolin-cl-80-s-25-kg-25049719/","stato":"Benchmark"},
+    {"id":64,"categoria":"Pareti interne","scenario":"MALTA","prodotto":"Sabbia naturale vagliata 0/4 big bag 1000 kg","codice":"25045722","quantita":8,"formato":"big bag 1000 kg","prezzoNetto":60.45,"totaleNetto":483.60,"fornitore":"Tecnomat - riferimento Rezzato","fonte":"https://www.tecnomat.it/it/sabbia-naturale-vagliata-0-4-1000-kg-25045722/","stato":"Benchmark da riconfermare Rezzato"},
+    {"id":65,"categoria":"Pareti interne","scenario":"MALTA","prodotto":"Intonaco finitura civile Fassa IG21 bianco 25 kg","codice":"12102123","quantita":49,"formato":"sacco 25 kg","prezzoNetto":6.27,"totaleNetto":307.23,"fornitore":"Tecnomat - riferimento Rezzato","fonte":"https://www.tecnomat.it/it/intonaco-finitura-calce-cem-ig21-25kgbco-12102123/","stato":"Benchmark"}
+  ]
+}
