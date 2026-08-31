@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-30T11:55:48.441280+00:00",
+  "updated_at": "2026-08-31T13:52:00.040395+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -9,7 +9,7 @@
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "name": "Espavista - real estate agency in Spain | Property in Torrevieja, Costa Blanca | 16 years on the market!",
       "profile": "",
       "country": "Da verificare",
@@ -33,55 +33,7 @@
       "id": "TRV-0001"
     },
     {
-      "date": "2026-08-30",
-      "name": "Filipinos in Spain Forum - Study, Work, & Visa Immigration Support | MOVING TO SPAIN WITH A DNV / NLV and look",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con capitale/liquidità",
-      "purpose": "Investimento",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "facebook.com",
-      "url": "https://www.facebook.com/groups/563116818810926/posts/1585508706571727",
-      "summary_original": "Image 6: ✈️ Easy access to Alicante Airport\n\nImage 7: 🇪🇸 Ideal for people establishing their life in Spain\n\nI have a small network of furnished apartments specifically suitable for DNV/NLV holders and people relocating to Spain.\n\nCurrent example:\n\nImage 8: 🏡 3-bedroom renovated apartment — Cabo Cervera, Torrevieja\n\n• Fully furnished\n\n• 3 bedrooms\n\n• Parking\n",
-      "summary_it": "",
-      "summary": "Image 6: ✈️ Easy access to Alicante Airport\n\nImage 7: 🇪🇸 Ideal for people establishing their life in Spain\n\nI have a small network of furnished apartments specifically suitable for DNV/NLV holders and people relocating to Spain.\n\nCurrent example:\n\nImage 8: 🏡 3-bedroom renovated apartment — Cabo Cervera, Torrevieja\n\n• Fully furnished\n\n• 3 bedrooms\n\n• Parking\n",
-      "score": 75,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0002"
-    },
-    {
-      "date": "2026-08-30",
-      "name": "Americans retiring in Spain | I have started considering retiring in Spain (American but hopefully  by year en",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con capitale/liquidità",
-      "purpose": "Investimento",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "facebook.com",
-      "url": "https://www.facebook.com/groups/1252959488456128/posts/2672466873172042",
-      "summary_original": "For anyone that has already relocated, did you buy property or have you decided to rent? As this will be my primary residence I'm leaning towards buying. I've not decided on the type of property yet (apartment/duplex/house etc.) but I'm trying to work out basic monthly costs (and I know these will vary). I can do comparisons (and have) such as these. Are the",
-      "summary_it": "",
-      "summary": "For anyone that has already relocated, did you buy property or have you decided to rent? As this will be my primary residence I'm leaning towards buying. I've not decided on the type of property yet (apartment/duplex/house etc.) but I'm trying to work out basic monthly costs (and I know these will vary). I can do comparisons (and have) such as these. Are the",
-      "score": 75,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0003"
-    },
-    {
-      "date": "2026-08-30",
+      "date": "2026-08-31",
       "name": "Bonjour, je cherche à acheter un bungalow ( p rix non ...",
       "profile": "",
       "country": "Da verificare",
@@ -102,12 +54,36 @@
       "score": 75,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0004"
+      "id": "TRV-0002"
+    },
+    {
+      "date": "2026-08-31",
+      "name": "Properties for Sale Costa Blanca | AP Properties Spain",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Investimento immobiliare",
+      "request": "Investitore con capitale/liquidità",
+      "purpose": "Investimento",
+      "zone": "Torrevieja",
+      "budget_min": null,
+      "budget_max": null,
+      "phone": "",
+      "email": "",
+      "source": "appropertiesspain.com",
+      "url": "https://appropertiesspain.com",
+      "summary_original": "Aneta & Patrick AP Properties Spain\n\nWe will offer you the best option to live or invest, depending on your needs. Denia, Javea, Calpe, San Juan de Alicante, Alicante, Guardamar del Segura, Ciudad Quesada, Torrevieja, Orihuela Costa or Benijófar, are some of the many areas where our properties are present.\n\nAt AP Properties Spain we provide a comprehensive s",
+      "summary_it": "",
+      "summary": "Aneta & Patrick AP Properties Spain\n\nWe will offer you the best option to live or invest, depending on your needs. Denia, Javea, Calpe, San Juan de Alicante, Alicante, Guardamar del Segura, Ciudad Quesada, Torrevieja, Orihuela Costa or Benijófar, are some of the many areas where our properties are present.\n\nAt AP Properties Spain we provide a comprehensive s",
+      "score": 75,
+      "priority": "Media",
+      "status": "Da verificare",
+      "id": "TRV-0003"
     }
   ],
   "market": {
-    "sources_checked": 81,
-    "new_signals": 4,
+    "sources_checked": 73,
+    "new_signals": 3,
     "high_priority": 1,
     "with_contact": 0,
     "population": 113453,
@@ -152,7 +128,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-08-30T11:55:48.441280+00:00",
+    "last_tavily_run": "2026-08-31T13:52:00.040395+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
