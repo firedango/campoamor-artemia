@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-01T11:40:24.411041+00:00",
+  "updated_at": "2026-09-02T11:19:40.005298+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -7,59 +7,10 @@
     "max_eur": 500000
   },
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
-  "leads": [
-    {
-      "date": "2026-09-01",
-      "name": "6 bedroom apartment for sale in Valencia, Alicante, Torrevieja, Spain",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "rightmove.co.uk",
-      "url": "https://www.rightmove.co.uk/properties/92246367",
-      "summary_original": "At Your Dream Home we are ideally positioned to help you find your Spanish property and ensure it is well looked after. Our team of property experts have years of experience in the Spanish real estate market and can offer you the best property advice and service which makes us one of the most experienced and well trusted Spanish property companies caring for",
-      "summary_it": "",
-      "summary": "At Your Dream Home we are ideally positioned to help you find your Spanish property and ensure it is well looked after. Our team of property experts have years of experience in the Spanish real estate market and can offer you the best property advice and service which makes us one of the most experienced and well trusted Spanish property companies caring for",
-      "score": 75,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0001"
-    },
-    {
-      "date": "2026-09-01",
-      "name": "Bonjour, je cherche à acheter un bungalow ( p rix non ...",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "facebook.com",
-      "url": "https://www.facebook.com/groups/436872745199225/posts/1375405214679302",
-      "summary_original": "Bonjour, je cherche à acheter un bungalow ( p rix non surfaits)sur Torrevieja ou régions avec un bon réseau transports publics prix max 200'000",
-      "summary_it": "",
-      "summary": "Bonjour, je cherche à acheter un bungalow ( p rix non surfaits)sur Torrevieja ou régions avec un bon réseau transports publics prix max 200'000",
-      "score": 75,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0002"
-    }
-  ],
+  "leads": [],
   "market": {
-    "sources_checked": 84,
-    "new_signals": 2,
+    "sources_checked": 87,
+    "new_signals": 0,
     "high_priority": 0,
     "with_contact": 0,
     "population": 113453,
@@ -104,7 +55,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-09-01T11:40:24.411041+00:00",
+    "last_tavily_run": "2026-09-02T11:19:40.005298+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
