@@ -1,0 +1,22 @@
+[
+  {
+    "id": "campoamor",
+    "title": "Campoamor / Progetto Spagna",
+    "description": "Acquisizione immobiliare, unità, redditività, documenti, due diligence e materiali commerciali per gli edifici di Campoamor.",
+    "href": "./campoamor/",
+    "source": "Google Sheet · Campoamor",
+    "updated": "2026-09-02T11:19:40Z",
+    "status": "OPERATIVO",
+    "accent": "sea"
+  },
+  {
+    "id": "villaggio-aurora",
+    "title": "Villaggio Aurora / Acquisti",
+    "description": "Controllo di materie prime, costi, fornitori, preventivi, ordini, pagamenti e budget del Villino 1.",
+    "href": "./villaggio-aurora/",
+    "source": "Google Sheet · Villino 1",
+    "updated": "2026-08-29T12:00:00Z",
+    "status": "OPERATIVO",
+    "accent": "sun"
+  }
+]
