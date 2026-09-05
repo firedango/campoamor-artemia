@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T11:19:08.372830+00:00",
+  "updated_at": "2026-09-05T10:36:23.880077+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -55,7 +55,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-09-04T11:19:08.372830+00:00",
+    "last_tavily_run": "2026-09-05T10:36:23.880077+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
