@@ -3,7 +3,7 @@ import { resolve } from 'node:path';
 
 const root = process.cwd();
 const publicDir = resolve(root, 'public');
-const paths = ['assets', 'campoamor', 'data', 'docs', 'torrevieja', 'villaggio-aurora'];
+const paths = ['assets', 'campoamor', 'data', 'docs', 'torrevieja', 'villaggio-aurora', 'mave-building'];
 
 await rm(publicDir, { recursive: true, force: true });
 await mkdir(publicDir, { recursive: true });

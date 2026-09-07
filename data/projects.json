@@ -10,6 +10,16 @@
     "accent": "sea"
   },
   {
+    "id": "mave-building",
+    "title": "MAVE BUILDING / Controllo documentale",
+    "description": "Aumento di capitale tradotto, riconciliazione delle 28 voci di spesa e documenti integrali riservati su Drive.",
+    "href": "./mave-building/",
+    "source": "Drive · Atto, Excel e giustificativi",
+    "updated": "2026-09-07T17:00:00Z",
+    "status": "VERIFICA APERTA",
+    "accent": "sun"
+  },
+  {
     "id": "villaggio-aurora",
     "title": "Villaggio Aurora / Acquisti",
     "description": "Controllo di materie prime, costi, fornitori, preventivi, ordini, pagamenti e budget del Villino 1.",
