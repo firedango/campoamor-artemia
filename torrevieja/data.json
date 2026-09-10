@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-09T11:24:28.655972+00:00",
+  "updated_at": "2026-09-10T11:20:47.991203+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -9,7 +9,7 @@
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "name": "Hi do u have any property in torrevieja",
       "profile": "",
       "country": "Da verificare",
@@ -34,7 +34,7 @@
     }
   ],
   "market": {
-    "sources_checked": 60,
+    "sources_checked": 87,
     "new_signals": 1,
     "high_priority": 1,
     "with_contact": 0,
@@ -80,7 +80,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-09-09T11:24:28.655972+00:00",
+    "last_tavily_run": "2026-09-10T11:20:47.991203+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
