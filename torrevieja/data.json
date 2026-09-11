@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-10T11:20:47.991203+00:00",
+  "updated_at": "2026-09-11T11:22:31.428012+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -7,36 +7,11 @@
     "max_eur": 500000
   },
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
-  "leads": [
-    {
-      "date": "2026-09-10",
-      "name": "Hi do u have any property in torrevieja",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "facebook.com",
-      "url": "https://www.facebook.com/groups/1760491720899722/posts/4656195054662693",
-      "summary_original": "Hello everyone, My partner and I are looking to buy a holiday home and investment as well in the area of Torrevieja. Could you please recommend a trustworthy",
-      "summary_it": "",
-      "summary": "Hello everyone, My partner and I are looking to buy a holiday home and investment as well in the area of Torrevieja. Could you please recommend a trustworthy",
-      "score": 85,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0001"
-    }
-  ],
+  "leads": [],
   "market": {
-    "sources_checked": 87,
-    "new_signals": 1,
-    "high_priority": 1,
+    "sources_checked": 84,
+    "new_signals": 0,
+    "high_priority": 0,
     "with_contact": 0,
     "population": 113453,
     "foreign_residents": 62000,
@@ -80,7 +55,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-09-10T11:20:47.991203+00:00",
+    "last_tavily_run": "2026-09-11T11:22:31.428012+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
