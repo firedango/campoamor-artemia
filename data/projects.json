@@ -1,13 +1,23 @@
 [
   {
     "id": "campoamor",
-    "title": "Campoamor / Progetto Spagna",
+    "title": "Campo Amor, Progetto Spagna",
     "description": "Acquisizione immobiliare, unità, redditività, documenti, due diligence e materiali commerciali per gli edifici di Campoamor.",
     "href": "./campoamor/",
     "source": "Google Sheet · Campoamor",
     "updated": "2026-09-02T11:19:40Z",
     "status": "OPERATIVO",
     "accent": "sea"
+  },
+  {
+    "id": "torrevieja",
+    "title": "Torrevieja Morning Brief",
+    "description": "Monitoraggio quotidiano di buyer, investitori e segnali di mercato internazionali per Torrevieja e Costa Blanca.",
+    "href": "./torrevieja/",
+    "source": "GitHub · Tavily / data.json",
+    "updated": "2026-09-11T00:00:00Z",
+    "status": "OPERATIVO",
+    "accent": "sun"
   },
   {
     "id": "mave-building",
