@@ -5,3 +5,4 @@ public/
 .next/
 .wrangler/
 *.tsbuildinfo
+.firecrawl/

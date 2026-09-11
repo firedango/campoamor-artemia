@@ -1,0 +1,132 @@
+{
+  "updated": "11/09/2026",
+  "status": "Ricerca preliminare su fonti ufficiali: prezzi e conformità da confermare con RFQ",
+  "windowTargetEurM2": 200,
+  "exchangeRate": {
+    "date": "10/09/2026",
+    "plnPerEur": 4.322,
+    "source": "https://www.ecb.europa.eu/stats/shared/pdf/eurofxref.pdf"
+  },
+  "windowSuppliers": [
+    {
+      "rank": 1,
+      "name": "Fintecnic",
+      "role": "Primo invio RFQ",
+      "fit": 92,
+      "priceStatus": "Listini pubblici parziali; pacchetto completo da quotare",
+      "why": "Unico candidato della rosa con listini, DoP e cataloghi pubblici, canale Italia e gamma unica per PVC, monoblocchi con zanzariera, porte e portoni garage.",
+      "windowSystem": "Aluplast Ideal 4000 / Salamander / Gealan; vetro e accessori da bloccare nella RFQ",
+      "contact": "italia@fintecnic.eu · +39 338 184 4370 · collaborazione@fintecnic.eu",
+      "site": "https://fintecnic.eu/",
+      "catalog": "https://fintecnic.eu/en/download/",
+      "photos": "https://fintecnic.eu/en/windows/pvc-windows/windows-aluplast-ideal-4000-softline/"
+    },
+    {
+      "rank": 2,
+      "name": "Eko-Okna",
+      "role": "Confronto one-stop",
+      "fit": 88,
+      "priceStatus": "Prezzi tramite preventivo/configuratore B2B",
+      "why": "Gamma coordinata di finestre, tapparelle, zanzariere, portoncini e portoni sezionali, avvolgibili o a battente; assistenza commerciale dedicata all'Italia.",
+      "windowSystem": "Configurazioni PVC multiple; conformità del pacchetto da verificare sulla singola offerta",
+      "contact": "offerta@ekookna.it · nuovocliente@ekookna.it · +48 32 459 15 00",
+      "site": "https://ekookna.it/",
+      "catalog": "https://ekookna.it/ekoit/da-scaricare/cataloghi",
+      "photos": "https://ekookna.it/ekoit/prodotti"
+    },
+    {
+      "rank": 3,
+      "name": "AdamS",
+      "role": "Confronto tecnico",
+      "fit": 84,
+      "priceStatus": "Nessun listino pubblico individuato; quotazione necessaria",
+      "why": "AS Classic è esplicitamente destinata anche all'edilizia d'investimento e usa Ideal 4000 a 5 camere con vetro standard 4/16Ar/4 basso emissivo Ug 1,0 e ferramenta Siegenia.",
+      "windowSystem": "AS Classic · Ideal 4000 · 70 mm · 5 camere",
+      "contact": "wk@adams.com.pl · export@adams.com.pl · +48 695 550 863",
+      "site": "https://adams.com.pl/it/",
+      "catalog": "https://adams.com.pl/it/prodotti",
+      "photos": "https://adams.com.pl/it/prodotti/finestre-pvc/finestre-comfort-line/as-classic"
+    },
+    {
+      "rank": 4,
+      "name": "Domel",
+      "role": "Riserva RFQ",
+      "fit": 74,
+      "priceStatus": "Nessun listino pubblico individuato; quotazione necessaria",
+      "why": "Produttore con cataloghi e documenti tecnici pubblici per finestre e porte PVC/alluminio; il pacchetto accessori richiesto va verificato direttamente.",
+      "windowSystem": "Gamma PVC/alluminio da selezionare con il tecnico",
+      "contact": "domel@domel.pl · +48 86 215 66 88",
+      "site": "https://domelwindows.com/",
+      "catalog": "https://domelwindows.com/sites/prof-domel.pl/files/download/2023-02/katalog_produktow_en%20(1).pdf",
+      "photos": "https://domelwindows.com/"
+    },
+    {
+      "rank": 5,
+      "name": "Lanko",
+      "role": "Riserva qualità",
+      "fit": 68,
+      "priceStatus": "Nessun listino pubblico individuato; quotazione necessaria",
+      "why": "Gamma PVC/alluminio, porte esterne, oscuranti e zanzariere con posizionamento più orientato alla finitura; meno allineato al target economico finché non arriva un'offerta.",
+      "windowSystem": "Gamma da selezionare; prestazioni da verificare in offerta",
+      "contact": "+48 604 355 000 · modulo sul sito",
+      "site": "https://www.lanko.pl/",
+      "catalog": "https://www.lanko.pl/materialy-do-pobrania",
+      "photos": "https://www.lanko.pl/"
+    }
+  ],
+  "publishedEvidence": [
+    {
+      "category": "Serramenti PVC",
+      "supplier": "Fintecnic",
+      "evidence": "Listino Aluplast/Salamander e listino Gealan pubblicati; prezzi base in EUR, accessori e pacchetto completo da ricomporre.",
+      "price": "Non confrontabile direttamente con 200 €/m² all-in",
+      "warning": "Validità commerciale e data effettiva da confermare",
+      "url": "https://fintecnic.eu/app/uploads/2021/07/listino-prezzi-aluplast-salamander-fintecnic-produttore-di-finestre-dalla-polonia.pdf"
+    },
+    {
+      "category": "Porta esterna a battente",
+      "supplier": "Fintecnic",
+      "evidence": "Esempio di listino: porta ingresso monoanta bianca 1000 × 2400 mm, configurazione base.",
+      "price": "€ 580 da listino",
+      "warning": "Non è un'offerta e non certifica il rispetto del capitolato; trasporto, accessori e validità da verificare",
+      "url": "https://fintecnic.eu/app/uploads/2021/07/listino-prezzi-gealan.pdf"
+    },
+    {
+      "category": "Portoni garage",
+      "supplier": "Eko-Okna",
+      "evidence": "Gamma ufficiale: sezionali, avvolgibili e a battente; moduli d'ordine e richiesta in italiano.",
+      "price": "Preventivo richiesto",
+      "warning": "Nessun prezzo pubblico comparabile individuato",
+      "url": "https://ekookna.it/"
+    }
+  ],
+  "railingBenchmarks": [
+    {
+      "name": "AdiProf",
+      "material": "Alluminio saldato, verniciatura a polvere; colori RAL",
+      "publishedPrice": "da 600–650 PLN lordi / pezzo",
+      "approxEur": "circa €139–150 / pezzo",
+      "basis": "Esempi Mix1 / Iron / Eco; misure e opzioni cambiano il prezzo",
+      "contact": "adiprof.zamowienia@gmail.com · +48 536 999 054",
+      "photos": "https://sklep.adiprof.pl/pl/menu/balkony-francuskie-100.html"
+    },
+    {
+      "name": "Ballustrada.pl",
+      "material": "Acciaio inox satinato; orizzontale, verticale o vetro VSG 44.1",
+      "publishedPrice": "da 654 PLN / pezzo",
+      "approxEur": "circa €151 / pezzo",
+      "basis": "Portafinestra con riempimento orizzontale, apertura 860–900 mm; verticale 749 PLN, vetro 897 PLN",
+      "contact": "Modulo di contatto sul sito",
+      "photos": "https://www.ballustrada.pl/cennik/"
+    },
+    {
+      "name": "Axitech",
+      "material": "Vetro ESG oppure ESG/VSG su misura con accessori",
+      "publishedPrice": "650–850 PLN / m²",
+      "approxEur": "circa €150–197 / m²",
+      "basis": "Vetro trasparente ESG 8 mm oppure ESG/VSG 6.6.2; configurazione e fissaggi da verificare",
+      "contact": "Modulo ordine/contatto sul sito",
+      "photos": "https://axitech.pl/balkony-francuskie"
+    }
+  ]
+}
