@@ -113,7 +113,7 @@ def classify(item):
     if not direct_intent(text):
         return None
     sc=score(text,url)
-    if sc < 70:
+    if sc < 50:
         return None
     inv=bool(INVESTOR_DIRECT.search(text))
     bmin,bmax=budget_range(text)
