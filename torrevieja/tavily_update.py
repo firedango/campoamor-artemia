@@ -14,6 +14,9 @@ QUERIES = [
     '"Torrevieja" ("busco comprar" OR "quiero comprar" OR "queremos comprar" OR "invertir en vivienda")',
     '"Torrevieja" ("property investment" OR "real estate investment" OR "cash investor" OR "capital to invest")',
     '"Torrevieja" ("acheter un appartement" OR "acheter une maison" OR "je cherche à acheter" OR "nous voulons acheter" OR "investir dans l immobilier")',
+    '"Torrevieja" ("cerco casa da comprare" OR "voglio comprare casa" OR "vogliamo comprare casa" OR "investimento immobiliare" OR "capitale da investire")',
+    '"Torrevieja" ("Wohnung kaufen" OR "Haus kaufen" OR "ich suche eine Wohnung" OR "wir möchten kaufen" OR "Immobilieninvestition" OR "Kapital zum Investieren")',
+    '"Torrevieja" ("appartement kopen" OR "woning kopen" OR "op zoek naar een appartement" OR "kapitaal om te investeren")',
     '"Torrevieja" ("köpa lägenhet" OR "köpa bostad" OR "investera fastighet")',
     '"Torrevieja" ("kupić mieszkanie" OR "kupić nieruchomość" OR "inwestycja nieruchomości")',
     '"Torrevieja" ("kjøpe leilighet" OR "kjøpe bolig" OR "eiendomsinvestering")',
@@ -25,7 +28,9 @@ STRONG_DIRECT = re.compile(
     r"(looking to buy|want to buy|we want to buy|planning to buy|i am buying|we are buying|"
     r"busco comprar|quiero comprar|queremos comprar|estoy buscando comprar|"
     r"je cherche.{0,40}acheter|je veux acheter|nous voulons acheter|nous cherchons.{0,40}acheter|"
-    r"cerco.*comprare|voglio comprare|"
+    r"cerco.*comprare|voglio comprare|vogliamo comprare|cerchiamo.{0,40}comprare|"
+    r"suche.*(?:wohnung|haus).{0,20}(?:kauf|zu kaufen)|möchte.*kaufen|wir möchten.*kaufen|ich möchte.*kaufen|"
+    r"op zoek naar.*(?:appartement|woning)|wil.*(?:appartement|woning).*kopen|willen.*kopen|zoek.*te koop|"
     r"chc[eę].*kupi[cć]|szukam.*kupi[cć]|"
     r"jeg vil.*kj[oø]pe|vi vil.*kj[oø]pe|"
     r"jag vill.*k[oö]pa|vi vill.*k[oö]pa|"
@@ -35,11 +40,14 @@ INVESTOR_DIRECT = re.compile(
     r"tengo.*(?:capital|liquidez|dinero).*invert|tenemos.*(?:capital|liquidez|dinero).*invert|"
     r"busco.*invertir|quiero.*invertir|queremos.*invertir|"
     r"j ai.*(?:capital|liquidit).{0,40}invest|nous avons.*(?:capital|liquidit).{0,40}invest|je cherche.*investir|je veux.*investir|"
+    r"ho.*capitale.*invest|abbiamo.*capitale.*invest|voglio investire|vogliamo investire|cerco.*investire|"
+    r"ich habe.*kapital|wir haben.*kapital|kapital.*investieren|möchte.*investieren|"
+    r"ik heb.*kapitaal|wij hebben.*kapitaal|kapitaal.*investeren|wil.*investeren|"
     r"mam.*kapita.*inwest|har.*kapital.*invest|имею.*капитал.*инвест|маю.*капітал.*інвест)", re.I)
-INVEST = re.compile(r"\b(invest|investment|investor|capital|cash|liquidity|yield|roi|invertir|inversi[oó]n|inversor|liquidez|investir|investissement|investisseur|liquidit[eé]|investera|inwest|инвест|інвест)\b", re.I)
+INVEST = re.compile(r"\b(invest|investment|investor|capital|cash|liquidity|yield|roi|invertir|inversi[oó]n|inversor|liquidez|investir|investissement|investisseur|liquidit[eé]|investera|inwest|investimento|investitore|capitale|kapital|investition|investeren|investering|kapitaal|инвест|інвест)\b", re.I)
 EMAIL = re.compile(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", re.I)
 MONEY = re.compile(r"(?:€|EUR\s*|£|GBP\s*|\$|USD\s*)?\s*([1-9]\d{1,3}(?:[.,]\d{3})+|[1-9]\d{4,5})(?:\s*(?:-|–|to|a|à)\s*(?:€|EUR\s*|£|GBP\s*|\$|USD\s*)?\s*([1-9]\d{1,3}(?:[.,]\d{3})+|[1-9]\d{4,5}))?|([1-9]\d{2,3})\s*k\b", re.I)
-EXCLUDE_TITLE = re.compile(r"\b(for sale|en venta|à vendre|property for sale|properties for sale|good time to buy|buen momento para comprar|bon moment pour acheter|market report|guide|news|blog)\b", re.I)
+EXCLUDE_TITLE = re.compile(r"\b(for sale|en venta|à vendre|in vendita|zu verkaufen|zum verkauf|te koop|property for sale|properties for sale|good time to buy|buen momento para comprar|bon moment pour acheter|market report|guide|news|blog)\b", re.I)
 
 
 def tavily(query):
