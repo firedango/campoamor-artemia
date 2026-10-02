@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T13:16:42.914075+00:00",
+  "updated_at": "2026-10-02T12:36:32.436524+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -9,8 +9,8 @@
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
-      "date": "2026-10-01",
-      "name": "€159.900! Appartement op 300m van het Strand in Torrevieja",
+      "date": "2026-10-02",
+      "name": "6 bedroom property for sale in Valencia, Alicante, Torrevieja, Spain",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
@@ -18,22 +18,22 @@
       "request": "Acquisto immobile",
       "purpose": "Da qualificare",
       "zone": "Torrevieja",
-      "budget_min": 159900,
-      "budget_max": 159900,
+      "budget_min": 300000,
+      "budget_max": 320000,
       "phone": "",
       "email": "",
-      "source": "youtube.com",
-      "url": "https://www.youtube.com/watch?v=z5YQKKrOY7g",
-      "summary_original": "🏡 Kenmerken van de woning:\n✅ 2 slaapkamers\n✅ 2 badkamers\n✅ Slechts 300 meter van het strand\n✅ Balkon\n✅ Volledig uitgeruste keuken\n✅ Moderne afwerking\n✅ Instapklaar\n✅ Perfect als investering of vakantieappartement\n✅ Gelegen in Torrevieja, Costa Blanca\n\n💶 Vraagprijs: €159.900 (ID A11463)\n\nBent u op zoek naar een betaalbaar appartement in Spanje dicht bij zee? ",
+      "source": "rightmove.co.uk",
+      "url": "https://www.rightmove.co.uk/properties/92789091",
+      "summary_original": "Investment Opportunity in the Heart of Torrevieja  \n  \nAn excellent investment opportunity is presented in the heart of Torrevieja: a complete building comprising a ground floor and first floor, located just 100 metres from the Town Hall and 400 metres from the beach. Its prime central location, surrounded by all amenities, shops, restaurants and transport l",
       "summary_it": "",
-      "summary": "🏡 Kenmerken van de woning:\n✅ 2 slaapkamers\n✅ 2 badkamers\n✅ Slechts 300 meter van het strand\n✅ Balkon\n✅ Volledig uitgeruste keuken\n✅ Moderne afwerking\n✅ Instapklaar\n✅ Perfect als investering of vakantieappartement\n✅ Gelegen in Torrevieja, Costa Blanca\n\n💶 Vraagprijs: €159.900 (ID A11463)\n\nBent u op zoek naar een betaalbaar appartement in Spanje dicht bij zee? ",
+      "summary": "Investment Opportunity in the Heart of Torrevieja  \n  \nAn excellent investment opportunity is presented in the heart of Torrevieja: a complete building comprising a ground floor and first floor, located just 100 metres from the Town Hall and 400 metres from the beach. Its prime central location, surrounded by all amenities, shops, restaurants and transport l",
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
       "id": "TRV-0001"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "name": "🏡 Te koop: Appartement in Torrevieja (Spanje) 🇪🇸",
       "profile": "",
       "country": "Da verificare",
@@ -47,7 +47,7 @@
       "phone": "",
       "email": "",
       "source": "facebook.com",
-      "url": "https://www.facebook.com/groups/propertyinspaingroup/posts/3229411547270115",
+      "url": "https://www.facebook.com/groups/spanish.properties/posts/38891676287142604",
       "summary_original": "Te koop: Appartement in Torrevieja (Spanje) Vraagprijs: €169.900 Ben je op zoek naar een heerlijk appartement op een toplocatie, op loopafstand",
       "summary_it": "",
       "summary": "Te koop: Appartement in Torrevieja (Spanje) Vraagprijs: €169.900 Ben je op zoek naar een heerlijk appartement op een toplocatie, op loopafstand",
@@ -57,7 +57,7 @@
       "id": "TRV-0002"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "name": "Modern Gerenoveerd Appartement in Spanje 🇪🇸 | 2 Slaapkamers & Zwembad op het Dak | €174.900",
       "profile": "",
       "country": "Da verificare",
@@ -81,7 +81,7 @@
       "id": "TRV-0003"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "name": "300.000 € an der Costa Blanca investieren: eine Immobilie … oder zwei?",
       "profile": "",
       "country": "Da verificare",
@@ -105,7 +105,7 @@
       "id": "TRV-0004"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -129,7 +129,7 @@
       "id": "TRV-0005"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "name": "Lawyer to Buy Property in Torrevieja | 2026 Guide",
       "profile": "",
       "country": "Da verificare",
@@ -153,7 +153,7 @@
       "id": "TRV-0006"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -177,31 +177,7 @@
       "id": "TRV-0007"
     },
     {
-      "date": "2026-10-01",
-      "name": "Herverkoop » Appartement » Torrevieja &raqu",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "houseinspaininvest.com",
-      "url": "https://houseinspaininvest.com/nl/woning/4448/appartement/herverkoop/spanje/alicante/torrevieja/playa-del-cura",
-      "summary_original": "Een woning om zelf te bewonen of als investering?\n\nDe nabijheid van de zee, de twee slaapkamers, de mogelijkheid om comfortabel een gezin te huisvesten en het grote aanbod aan voorzieningen in de omgeving maken deze woning ook interessant voor de verhuurmarkt.\n\nBovendien wordt de woning gemeubileerd verkocht en kan ze vrijwel vanaf de eerste dag worden gebru",
-      "summary_it": "",
-      "summary": "Een woning om zelf te bewonen of als investering?\n\nDe nabijheid van de zee, de twee slaapkamers, de mogelijkheid om comfortabel een gezin te huisvesten en het grote aanbod aan voorzieningen in de omgeving maken deze woning ook interessant voor de verhuurmarkt.\n\nBovendien wordt de woning gemeubileerd verkocht en kan ze vrijwel vanaf de eerste dag worden gebru",
-      "score": 75,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0008"
-    },
-    {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "name": "Costa Blanca Vastgoedmakelaar",
       "profile": "",
       "country": "Da verificare",
@@ -222,10 +198,10 @@
       "score": 75,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0009"
+      "id": "TRV-0008"
     },
     {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "name": "▷ Buy house in Torrevieja | Your ideal home by the sea",
       "profile": "",
       "country": "Da verificare",
@@ -246,12 +222,60 @@
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
+      "id": "TRV-0009"
+    },
+    {
+      "date": "2026-10-02",
+      "name": "▷ Agenci nieruchomości w Torrevieja, Costa Blanca",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
+      "zone": "Torrevieja",
+      "budget_min": null,
+      "budget_max": null,
+      "phone": "",
+      "email": "",
+      "source": "amcostablanca.com",
+      "url": "https://amcostablanca.com/pl/agenci-nieruchomosci-w-torrevieja.html",
+      "summary_original": "Jeśli szukasz agentów nieruchomości w Torrevieja, którzy Cię słuchają, doradzają i wspierają w sposób profesjonalny i bliski, w AM Costa Blanca chętnie Ci pomożemy. Niezależnie od tego, czy chcesz kupić dom wakacyjny, zainwestować na Costa Blanca czy sprzedać nieruchomość klientom międzynarodowym, możemy zaoferować profesjonalną obsługę dopasowaną do Twoich ",
+      "summary_it": "",
+      "summary": "Jeśli szukasz agentów nieruchomości w Torrevieja, którzy Cię słuchają, doradzają i wspierają w sposób profesjonalny i bliski, w AM Costa Blanca chętnie Ci pomożemy. Niezależnie od tego, czy chcesz kupić dom wakacyjny, zainwestować na Costa Blanca czy sprzedać nieruchomość klientom międzynarodowym, możemy zaoferować profesjonalną obsługę dopasowaną do Twoich ",
+      "score": 65,
+      "priority": "Media",
+      "status": "Da verificare",
       "id": "TRV-0010"
+    },
+    {
+      "date": "2026-10-02",
+      "name": "Chcesz kupić dom lub mieszkanie w Torrevieja? ...",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
+      "zone": "Torrevieja",
+      "budget_min": null,
+      "budget_max": null,
+      "phone": "",
+      "email": "",
+      "source": "ro-spain.com",
+      "url": "https://www.ro-spain.com/pl/okolica/kup-dom-lub-apartament-w-torrevieja",
+      "summary_original": "+34 966 27 69 23 info@ro-spain.com. Kup dom lub apartament w Torrevieja Torrevieja to nadmorska miejscowość położona nad Morzem Śródziemnym, 40 minut od",
+      "summary_it": "",
+      "summary": "+34 966 27 69 23 info@ro-spain.com. Kup dom lub apartament w Torrevieja Torrevieja to nadmorska miejscowość położona nad Morzem Śródziemnym, 40 minut od",
+      "score": 65,
+      "priority": "Media",
+      "status": "Da verificare",
+      "id": "TRV-0011"
     }
   ],
   "market": {
     "sources_checked": 111,
-    "new_signals": 10,
+    "new_signals": 11,
     "high_priority": 5,
     "with_contact": 0,
     "population": 113453,
@@ -296,7 +320,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-10-01T13:16:42.914075+00:00",
+    "last_tavily_run": "2026-10-02T12:36:32.436524+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
