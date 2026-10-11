@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10T12:33:22.481564+00:00",
+  "updated_at": "2026-10-11T12:51:37.341873+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -9,7 +9,7 @@
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "name": "Appartement in Torrevieja voor €168.000 | 2 Slaapkamers op 400 m van het Strand",
       "profile": "",
       "country": "Da verificare",
@@ -33,55 +33,7 @@
       "id": "TRV-0001"
     },
     {
-      "date": "2026-10-10",
-      "name": "▷ Blog | Buy, sell and rent houses on the Costa Blanca",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": 422966,
-      "budget_max": 422966,
-      "phone": "",
-      "email": "",
-      "source": "costainvest.com",
-      "url": "https://costainvest.com/news",
-      "summary_original": "Property for sale in La Mata Spain\n\nLa Mata Property for sale\n\nLa Mata apartments for sale\n\nProperties for sale in Torrevieja\n\nCheap property for sale in Torrevieja Spain\n\nHomes for sale Torrevieja\n\nlabora\n\nWhatsApp\n\nChat with us now\n\n### Contact using Whatsapp\n\nEnter your name and phone number to start a WhatsApp chat.\n\n### Contact using Whatsapp\n\nChat on W",
-      "summary_it": "",
-      "summary": "Property for sale in La Mata Spain\n\nLa Mata Property for sale\n\nLa Mata apartments for sale\n\nProperties for sale in Torrevieja\n\nCheap property for sale in Torrevieja Spain\n\nHomes for sale Torrevieja\n\nlabora\n\nWhatsApp\n\nChat with us now\n\n### Contact using Whatsapp\n\nEnter your name and phone number to start a WhatsApp chat.\n\n### Contact using Whatsapp\n\nChat on W",
-      "score": 90,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0002"
-    },
-    {
-      "date": "2026-10-10",
-      "name": "6 bedroom apartment for sale in Valencia, Alicante, Torrevieja, Spain",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": 320000,
-      "budget_max": 320000,
-      "phone": "",
-      "email": "",
-      "source": "rightmove.co.uk",
-      "url": "https://www.rightmove.co.uk/properties/92789091",
-      "summary_original": "An excellent investment opportunity is presented in the heart of Torrevieja: a complete building comprising a ground floor and first floor, located just 100 metres from the Town Hall and 400 metres from the beach. Its prime central location, surrounded by all amenities, shops, restaurants and transport links, makes it an ideal asset for both residential use ",
-      "summary_it": "",
-      "summary": "An excellent investment opportunity is presented in the heart of Torrevieja: a complete building comprising a ground floor and first floor, located just 100 metres from the Town Hall and 400 metres from the beach. Its prime central location, surrounded by all amenities, shops, restaurants and transport links, makes it an ideal asset for both residential use ",
-      "score": 90,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0003"
-    },
-    {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "name": "Fully Renovated Apartment in Torrevieja, Spain | €175,000 & 400m to the Beach",
       "profile": "",
       "country": "Da verificare",
@@ -102,10 +54,58 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
+      "id": "TRV-0002"
+    },
+    {
+      "date": "2026-10-11",
+      "name": "▷ Blog | Buy, sell and rent houses on the Costa Blanca",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
+      "zone": "Torrevieja",
+      "budget_min": 422966,
+      "budget_max": 422966,
+      "phone": "",
+      "email": "",
+      "source": "costainvest.com",
+      "url": "https://costainvest.com/news",
+      "summary_original": "Property for sale in La Mata Spain\n\nLa Mata Property for sale\n\nLa Mata apartments for sale\n\nProperties for sale in Torrevieja\n\nCheap property for sale in Torrevieja Spain\n\nHomes for sale Torrevieja\n\nlabora\n\nWhatsApp\n\nChat with us now\n\n### Contact using Whatsapp\n\nEnter your name and phone number to start a WhatsApp chat.\n\n### Contact using Whatsapp\n\nChat on W",
+      "summary_it": "",
+      "summary": "Property for sale in La Mata Spain\n\nLa Mata Property for sale\n\nLa Mata apartments for sale\n\nProperties for sale in Torrevieja\n\nCheap property for sale in Torrevieja Spain\n\nHomes for sale Torrevieja\n\nlabora\n\nWhatsApp\n\nChat with us now\n\n### Contact using Whatsapp\n\nEnter your name and phone number to start a WhatsApp chat.\n\n### Contact using Whatsapp\n\nChat on W",
+      "score": 90,
+      "priority": "Alta",
+      "status": "Da verificare",
+      "id": "TRV-0003"
+    },
+    {
+      "date": "2026-10-11",
+      "name": "Torrevieja Property Investment: Best Areas to Buy",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Investimento immobiliare",
+      "request": "Investitore con capitale/liquidità",
+      "purpose": "Investimento",
+      "zone": "Torrevieja",
+      "budget_min": 106000,
+      "budget_max": 160000,
+      "phone": "",
+      "email": "",
+      "source": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=6vNXzB6x_90",
+      "summary_original": "[17:14] income from mid to long-term tenants, and the avoidance of 1970s structural liabilities. I think where we absolutely converge today is on the macro reality\n[17:22] of Tora Vieja itself. Whether you prefer the density and high frequency of the center or the tranquility of the salt lagoons in the suburbs, this\n[17:30] municipality has undeniably succes",
+      "summary_it": "",
+      "summary": "[17:14] income from mid to long-term tenants, and the avoidance of 1970s structural liabilities. I think where we absolutely converge today is on the macro reality\n[17:22] of Tora Vieja itself. Whether you prefer the density and high frequency of the center or the tranquility of the salt lagoons in the suburbs, this\n[17:30] municipality has undeniably succes",
+      "score": 90,
+      "priority": "Alta",
+      "status": "Da verificare",
       "id": "TRV-0004"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "name": "2 bedroom chalet for sale in Valencia, Alicante, Torrevieja, Spain",
       "profile": "",
       "country": "Da verificare",
@@ -129,7 +129,7 @@
       "id": "TRV-0005"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -153,7 +153,7 @@
       "id": "TRV-0006"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "name": "🏡 APPARTEMENT TE KOOP IN LOS ALTOS – ...",
       "profile": "",
       "country": "Da verificare",
@@ -177,7 +177,7 @@
       "id": "TRV-0007"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -201,7 +201,7 @@
       "id": "TRV-0008"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -225,8 +225,8 @@
       "id": "TRV-0009"
     },
     {
-      "date": "2026-10-10",
-      "name": "Residency in Spain After Brexit: 2026 Legal Guide",
+      "date": "2026-10-11",
+      "name": "Costa Blanca Vastgoedmakelaar",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
@@ -238,42 +238,18 @@
       "budget_max": null,
       "phone": "",
       "email": "",
-      "source": "lawyerintorrevieja.com",
-      "url": "https://lawyerintorrevieja.com/residency-in-spain-after-brexit",
-      "summary_original": "For short stays, the general rule is a maximum of 90 days within any 180-day period. Staying in Spain for longer requires the appropriate visa or residence authorisation.\n\nThis leads to one of the questions we are most frequently asked by foreign property owners:\n\nDoes buying a property in Torrevieja give me the right to live in Spain?\n\nThe answer is no.\n\nBu",
+      "source": "inmoinvestments.com",
+      "url": "https://inmoinvestments.com/nl",
+      "summary_original": "Als gevestigde makelaar aan de Costa Blanca, sinds het jaar 2000, zijn wij gespecialiseerd in het aanbieden van geselecteerde koopwoningen (bestaande bouw) evenals nieuwbouwprojecten en huizen die door de bank in beslag genomen zijn in Orihuela Costa en Torrevieja. Wij hebben de beste deals en meest superieure woningen met de hand voor u geselecteerd, en nie",
       "summary_it": "",
-      "summary": "For short stays, the general rule is a maximum of 90 days within any 180-day period. Staying in Spain for longer requires the appropriate visa or residence authorisation.\n\nThis leads to one of the questions we are most frequently asked by foreign property owners:\n\nDoes buying a property in Torrevieja give me the right to live in Spain?\n\nThe answer is no.\n\nBu",
-      "score": 65,
+      "summary": "Als gevestigde makelaar aan de Costa Blanca, sinds het jaar 2000, zijn wij gespecialiseerd in het aanbieden van geselecteerde koopwoningen (bestaande bouw) evenals nieuwbouwprojecten en huizen die door de bank in beslag genomen zijn in Orihuela Costa en Torrevieja. Wij hebben de beste deals en meest superieure woningen met de hand voor u geselecteerd, en nie",
+      "score": 75,
       "priority": "Media",
       "status": "Da verificare",
       "id": "TRV-0010"
     },
     {
-      "date": "2026-10-10",
-      "name": "Renovierung finanzieren in Spanien — den Bestand beleihen",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con capitale/liquidità",
-      "purpose": "Investimento",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "perini.es",
-      "url": "https://perini.es/praxisberichte/modernisierung",
-      "summary_original": "### Penthouse an der Orihuela Costa (Costa Blanca)\n\nAuch moderne Neubau- oder neuwertige Bestandswohnungen verursachen häufig zusätzliche Investitionen, bevor sie den eigenen Wohnwünschen vollständig entsprechen.\n\n### Reihenhaus in Torrevieja (Costa Blanca)\n\nGerade beim Wechsel in den Ruhestand ist eine ausgewogene Finanzierung oft sinnvoller als der vollstä",
-      "summary_it": "",
-      "summary": "### Penthouse an der Orihuela Costa (Costa Blanca)\n\nAuch moderne Neubau- oder neuwertige Bestandswohnungen verursachen häufig zusätzliche Investitionen, bevor sie den eigenen Wohnwünschen vollständig entsprechen.\n\n### Reihenhaus in Torrevieja (Costa Blanca)\n\nGerade beim Wechsel in den Ruhestand ist eine ausgewogene Finanzierung oft sinnvoller als der vollstä",
-      "score": 65,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0011"
-    },
-    {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "name": "▷ Nieuwbouwappartementen te koop in Torrevieja | Amay",
       "profile": "",
       "country": "Da verificare",
@@ -294,10 +270,10 @@
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0012"
+      "id": "TRV-0011"
     },
     {
-      "date": "2026-10-10",
+      "date": "2026-10-11",
       "name": "Co Kupić w Hiszpanii za ok. 260 tys.€? Rynek Wtórny vs Pierwotny",
       "profile": "",
       "country": "Da verificare",
@@ -318,12 +294,12 @@
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0013"
+      "id": "TRV-0012"
     }
   ],
   "market": {
     "sources_checked": 113,
-    "new_signals": 13,
+    "new_signals": 12,
     "high_priority": 8,
     "with_contact": 0,
     "population": 113453,
@@ -368,7 +344,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-10-10T12:33:22.481564+00:00",
+    "last_tavily_run": "2026-10-11T12:51:37.341873+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
