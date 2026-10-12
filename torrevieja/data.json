@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T12:51:37.341873+00:00",
+  "updated_at": "2026-10-12T15:27:17.637980+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -9,7 +9,7 @@
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "name": "Appartement in Torrevieja voor €168.000 | 2 Slaapkamers op 400 m van het Strand",
       "profile": "",
       "country": "Da verificare",
@@ -33,31 +33,7 @@
       "id": "TRV-0001"
     },
     {
-      "date": "2026-10-11",
-      "name": "Fully Renovated Apartment in Torrevieja, Spain | €175,000 & 400m to the Beach",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": 175000,
-      "budget_max": 175000,
-      "phone": "",
-      "email": "",
-      "source": "youtube.com",
-      "url": "https://www.youtube.com/watch?v=BUQq9PQUO2k",
-      "summary_original": "# Fully Renovated Apartment in Torrevieja, Spain | €175,000 & 400m to the Beach\n## Channel: Living & Property in Spain\n10.6K subscribers\n24 likes\n\n### Description\n1,329 views\nPosted: 2026-10-09\nLooking to buy a renovated apartment in Spain near the beach? 🇪🇸 Join Denisa from Alegria Real Estate for a tour of this fully renovated apartment in Torrevieja, on t",
-      "summary_it": "",
-      "summary": "# Fully Renovated Apartment in Torrevieja, Spain | €175,000 & 400m to the Beach\n## Channel: Living & Property in Spain\n10.6K subscribers\n24 likes\n\n### Description\n1,329 views\nPosted: 2026-10-09\nLooking to buy a renovated apartment in Spain near the beach? 🇪🇸 Join Denisa from Alegria Real Estate for a tour of this fully renovated apartment in Torrevieja, on t",
-      "score": 90,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0002"
-    },
-    {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "name": "▷ Blog | Buy, sell and rent houses on the Costa Blanca",
       "profile": "",
       "country": "Da verificare",
@@ -78,10 +54,10 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0003"
+      "id": "TRV-0002"
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "name": "Torrevieja Property Investment: Best Areas to Buy",
       "profile": "",
       "country": "Da verificare",
@@ -102,10 +78,34 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
+      "id": "TRV-0003"
+    },
+    {
+      "date": "2026-10-12",
+      "name": "6 bedroom apartment for sale in Valencia, Alicante, Torrevieja, Spain",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
+      "zone": "Torrevieja",
+      "budget_min": 320000,
+      "budget_max": 320000,
+      "phone": "",
+      "email": "",
+      "source": "rightmove.co.uk",
+      "url": "https://www.rightmove.co.uk/properties/92789091",
+      "summary_original": "An excellent investment opportunity is presented in the heart of Torrevieja: a complete building comprising a ground floor and first floor, located just 100 metres from the Town Hall and 400 metres from the beach. Its prime central location, surrounded by all amenities, shops, restaurants and transport links, makes it an ideal asset for both residential use ",
+      "summary_it": "",
+      "summary": "An excellent investment opportunity is presented in the heart of Torrevieja: a complete building comprising a ground floor and first floor, located just 100 metres from the Town Hall and 400 metres from the beach. Its prime central location, surrounded by all amenities, shops, restaurants and transport links, makes it an ideal asset for both residential use ",
+      "score": 90,
+      "priority": "Alta",
+      "status": "Da verificare",
       "id": "TRV-0004"
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "name": "2 bedroom chalet for sale in Valencia, Alicante, Torrevieja, Spain",
       "profile": "",
       "country": "Da verificare",
@@ -129,8 +129,8 @@
       "id": "TRV-0005"
     },
     {
-      "date": "2026-10-11",
-      "name": "Instagram",
+      "date": "2026-10-12",
+      "name": "🏡 Te koop: Appartement in Torrevieja (Spanje) 🇪🇸",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
@@ -138,22 +138,22 @@
       "request": "Acquisto immobile",
       "purpose": "Da qualificare",
       "zone": "Torrevieja",
-      "budget_min": 150000,
-      "budget_max": 150000,
+      "budget_min": 169900,
+      "budget_max": 169900,
       "phone": "",
       "email": "",
-      "source": "instagram.com",
-      "url": "https://www.instagram.com/p/Dd6tvf1Mm-7",
-      "summary_original": "🤩 GERESERVEERD! 🤩  \n  \nNa een aantal bezichtigingen bij verschillende woningen was de keuze gemaakt! 🥳 Melvin en Marjoleine mochten voor hun klanten dit prachtige appartement in Torrevieja reserveren. 🏡☀️  \n  \nEn wat een heerlijke plek! Een mooi appartement met 2 slaapkamers en dat voor minder dan €150.000. 👀🇪🇸 Een mooie kans om te investeren in Spaans vastg",
+      "source": "facebook.com",
+      "url": "https://www.facebook.com/groups/spanish.properties/posts/38891676287142604",
+      "summary_original": "Te koop: Appartement in Torrevieja (Spanje) Vraagprijs: €169.900 Ben je op zoek naar een heerlijk appartement op een toplocatie, op loopafstand",
       "summary_it": "",
-      "summary": "🤩 GERESERVEERD! 🤩  \n  \nNa een aantal bezichtigingen bij verschillende woningen was de keuze gemaakt! 🥳 Melvin en Marjoleine mochten voor hun klanten dit prachtige appartement in Torrevieja reserveren. 🏡☀️  \n  \nEn wat een heerlijke plek! Een mooi appartement met 2 slaapkamers en dat voor minder dan €150.000. 👀🇪🇸 Een mooie kans om te investeren in Spaans vastg",
+      "summary": "Te koop: Appartement in Torrevieja (Spanje) Vraagprijs: €169.900 Ben je op zoek naar een heerlijk appartement op een toplocatie, op loopafstand",
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
       "id": "TRV-0006"
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "name": "🏡 APPARTEMENT TE KOOP IN LOS ALTOS – ...",
       "profile": "",
       "country": "Da verificare",
@@ -177,55 +177,7 @@
       "id": "TRV-0007"
     },
     {
-      "date": "2026-10-11",
-      "name": "Instagram",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": 200000,
-      "budget_max": 200000,
-      "phone": "",
-      "email": "",
-      "source": "instagram.com",
-      "url": "https://www.instagram.com/p/DdOFYm0oCXe?__d=1",
-      "summary_original": "☀️ 𝗡𝗜𝗘𝗨𝗪 𝗧𝗘 𝗞𝗢𝗢𝗣 | 𝗧𝗼𝗿𝗿𝗲𝘃𝗶𝗲𝗷𝗮 ☀️  \n  \nOp zoek naar een 𝗿𝘂𝗶𝗺 𝗮𝗽𝗽𝗮𝗿𝘁𝗲𝗺𝗲𝗻𝘁 𝘃𝗹𝗮𝗸 𝗯𝗶𝗷 𝘇𝗲𝗲? Dit appartement aan Calle Concordia biedt maar liefst 𝟭𝟭𝟰 𝗺𝟮 𝘄𝗼𝗼𝗻𝗼𝗽𝗽𝗲𝗿𝘃𝗹𝗮𝗸𝘁𝗲, 3 slaapkamers en een centrale ligging nabij Playa del Cura.  \n  \n• 114 m² woonoppervlakte   \n• 3 slaapkamers   \n• 2 badkamers   \n• Ruime leefruimtes   \n• Praktische indeling voor gezinnen of gaste",
-      "summary_it": "",
-      "summary": "☀️ 𝗡𝗜𝗘𝗨𝗪 𝗧𝗘 𝗞𝗢𝗢𝗣 | 𝗧𝗼𝗿𝗿𝗲𝘃𝗶𝗲𝗷𝗮 ☀️  \n  \nOp zoek naar een 𝗿𝘂𝗶𝗺 𝗮𝗽𝗽𝗮𝗿𝘁𝗲𝗺𝗲𝗻𝘁 𝘃𝗹𝗮𝗸 𝗯𝗶𝗷 𝘇𝗲𝗲? Dit appartement aan Calle Concordia biedt maar liefst 𝟭𝟭𝟰 𝗺𝟮 𝘄𝗼𝗼𝗻𝗼𝗽𝗽𝗲𝗿𝘃𝗹𝗮𝗸𝘁𝗲, 3 slaapkamers en een centrale ligging nabij Playa del Cura.  \n  \n• 114 m² woonoppervlakte   \n• 3 slaapkamers   \n• 2 badkamers   \n• Ruime leefruimtes   \n• Praktische indeling voor gezinnen of gaste",
-      "score": 80,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0008"
-    },
-    {
-      "date": "2026-10-11",
-      "name": "Instagram",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con capitale/liquidità",
-      "purpose": "Investimento",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "instagram.com",
-      "url": "https://www.instagram.com/reel/DdOe_xCIMCe",
-      "summary_original": "#LaMata #Torrevieja #CostaBlanca #PropertyInvestment #RealEstateSpain [...] Very interesting. I have been seriously considering an investment in Torrevieja and the surroundings since 2024 and I liked La Mats indeed. Ever since, I have done some visit to area and I have spent months researching the market and calculating different scenarios. I would genuinely",
-      "summary_it": "",
-      "summary": "#LaMata #Torrevieja #CostaBlanca #PropertyInvestment #RealEstateSpain [...] Very interesting. I have been seriously considering an investment in Torrevieja and the surroundings since 2024 and I liked La Mats indeed. Ever since, I have done some visit to area and I have spent months researching the market and calculating different scenarios. I would genuinely",
-      "score": 75,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0009"
-    },
-    {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "name": "Costa Blanca Vastgoedmakelaar",
       "profile": "",
       "country": "Da verificare",
@@ -246,10 +198,10 @@
       "score": 75,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0010"
+      "id": "TRV-0008"
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "name": "▷ Nieuwbouwappartementen te koop in Torrevieja | Amay",
       "profile": "",
       "country": "Da verificare",
@@ -270,10 +222,10 @@
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0011"
+      "id": "TRV-0009"
     },
     {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "name": "Co Kupić w Hiszpanii za ok. 260 tys.€? Rynek Wtórny vs Pierwotny",
       "profile": "",
       "country": "Da verificare",
@@ -294,13 +246,37 @@
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0012"
+      "id": "TRV-0010"
+    },
+    {
+      "date": "2026-10-12",
+      "name": "▷ Vivee | Estate Agents in Orihuela Costa Spain",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
+      "zone": "Torrevieja",
+      "budget_min": null,
+      "budget_max": null,
+      "phone": "",
+      "email": "",
+      "source": "viveesp.com",
+      "url": "https://viveesp.com/pl",
+      "summary_original": "MAINDAMA GROUP S.L. ha sido beneficiaria del Fondo Europeo de Desarrollo Regional cuyo objetivo es mejorar el uso y la calidad de las tecnologías de la información y de las comunicaciones y el acceso a las mismas y gracias al que ha podido desarrollar un proyecto de Dinamización de redes sociales, otro de Analítica web y otro de Elaboración de catálogos digi",
+      "summary_it": "",
+      "summary": "MAINDAMA GROUP S.L. ha sido beneficiaria del Fondo Europeo de Desarrollo Regional cuyo objetivo es mejorar el uso y la calidad de las tecnologías de la información y de las comunicaciones y el acceso a las mismas y gracias al que ha podido desarrollar un proyecto de Dinamización de redes sociales, otro de Analítica web y otro de Elaboración de catálogos digi",
+      "score": 65,
+      "priority": "Media",
+      "status": "Da verificare",
+      "id": "TRV-0011"
     }
   ],
   "market": {
-    "sources_checked": 113,
-    "new_signals": 12,
-    "high_priority": 8,
+    "sources_checked": 118,
+    "new_signals": 11,
+    "high_priority": 7,
     "with_contact": 0,
     "population": 113453,
     "foreign_residents": 62000,
@@ -344,7 +320,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-10-11T12:51:37.341873+00:00",
+    "last_tavily_run": "2026-10-12T15:27:17.637980+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
