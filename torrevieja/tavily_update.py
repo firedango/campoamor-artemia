@@ -24,9 +24,22 @@ QUERIES = [
     '"Torrevieja" ("купити квартиру" OR "купити нерухомість" OR "інвестиції в нерухомість")'
 ]
 
+# Classifieds/forum sites where individuals actually post buy-side requests, unlike
+# listing portals (Idealista, Fotocasa, Kyero, Rightmove...) which are 100% seller/agency
+# supply and never carry a genuine "looking to buy" post. Restricted via Tavily's native
+# include_domains, not an embedded "site:" operator (Tavily's own index doesn't parse that).
+CLASSIFIED_QUERIES = [
+    ('"compro piso" OR "busco piso" OR "compro vivienda" Torrevieja', ["milanuncios.com"]),
+    ('"busco piso" OR "compro vivienda" OR "busco vivienda" Torrevieja', ["wallapop.com", "es.wallapop.com"]),
+    ('"compro piso" OR "busco piso" OR "compro vivienda" Torrevieja', ["segundamano.es"]),
+    ('Torrevieja ("looking to buy" OR "want to buy" OR "buying property")', ["forums.aplaceinthesun.com", "aplaceinthesun.com"]),
+]
+
 STRONG_DIRECT = re.compile(
     r"(looking to buy|want to buy|we want to buy|planning to buy|i am buying|we are buying|"
     r"busco comprar|quiero comprar|queremos comprar|estoy buscando comprar|"
+    r"busco piso|busco vivienda|busco casa|compro piso|compro vivienda|compro casa|necesito piso|"
+    r"busco (?:piso|vivienda|casa|apartamento)|compro (?:piso|vivienda|casa|apartamento)|"
     r"je cherche.{0,40}acheter|je veux acheter|nous voulons acheter|nous cherchons.{0,40}acheter|"
     r"cerco.*comprare|voglio comprare|vogliamo comprare|cerchiamo.{0,40}comprare|"
     r"suche.*(?:wohnung|haus).{0,20}(?:kauf|zu kaufen)|möchte.*kaufen|wir möchten.*kaufen|ich möchte.*kaufen|"
@@ -47,11 +60,14 @@ INVESTOR_DIRECT = re.compile(
 INVEST = re.compile(r"\b(invest|investment|investor|capital|cash|liquidity|yield|roi|invertir|inversi[oó]n|inversor|liquidez|investir|investissement|investisseur|liquidit[eé]|investera|inwest|investimento|investitore|capitale|kapital|investition|investeren|investering|kapitaal|инвест|інвест)\b", re.I)
 EMAIL = re.compile(r"[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}", re.I)
 MONEY = re.compile(r"(?:€|EUR\s*|£|GBP\s*|\$|USD\s*)?\s*([1-9]\d{1,3}(?:[.,]\d{3})+|[1-9]\d{4,5})(?:\s*(?:-|–|to|a|à)\s*(?:€|EUR\s*|£|GBP\s*|\$|USD\s*)?\s*([1-9]\d{1,3}(?:[.,]\d{3})+|[1-9]\d{4,5}))?|([1-9]\d{2,3})\s*k\b", re.I)
-EXCLUDE_TITLE = re.compile(r"\b(for sale|en venta|à vendre|in vendita|zu verkaufen|zum verkauf|te koop|property for sale|properties for sale|good time to buy|buen momento para comprar|bon moment pour acheter|market report|guide|news|blog)\b", re.I)
+EXCLUDE_TITLE = re.compile(r"\b(for sale|en venta|se vende|à vendre|in vendita|zu verkaufen|zum verkauf|te koop|property for sale|properties for sale|good time to buy|buen momento para comprar|bon moment pour acheter|market report|guide|news|blog)\b", re.I)
+# Classifieds/forums where individuals post real buy-side requests: same score
+# bonus as Facebook groups/Reddit/forums (see score() below).
+DEMAND_SITES = ("milanuncios.com", "wallapop.com", "segundamano.es", "aplaceinthesun.com")
 
 
-def tavily(query):
-    payload = json.dumps({
+def tavily(query, include_domains=None):
+    payload = {
         "query": query,
         "search_depth": "advanced",
         "max_results": 10,
@@ -61,8 +77,10 @@ def tavily(query):
         "include_raw_content": False,
         "include_images": False,
         "safe_search": True
-    }).encode()
-    req = urllib.request.Request(API_URL, data=payload, method="POST", headers={
+    }
+    if include_domains:
+        payload["include_domains"] = include_domains
+    req = urllib.request.Request(API_URL, data=json.dumps(payload).encode(), method="POST", headers={
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json",
         "User-Agent": "TorreviejaLeadMonitor/1.2"
@@ -107,7 +125,7 @@ def score(text, url):
     if INVEST.search(text): s += 10
     bmin,bmax=budget_range(text)
     if bmin or bmax: s += 15
-    if any(x in url.lower() for x in ["facebook.com/groups/", "reddit.com/r/", "forum", "expat"]): s += 10
+    if any(x in url.lower() for x in ["facebook.com/groups/", "reddit.com/r/", "forum", "expat", *DEMAND_SITES]): s += 10
     return min(s,100)
 
 
@@ -139,7 +157,7 @@ def classify(item):
         "budget_min": bmin,
         "budget_max": bmax,
         "phone": "",
-        "email": emails[0] if emails and any(x in url.lower() for x in ["facebook.com/groups/", "reddit.com/r/", "forum", "expat"]) else "",
+        "email": emails[0] if emails and any(x in url.lower() for x in ["facebook.com/groups/", "reddit.com/r/", "forum", "expat", *DEMAND_SITES]) else "",
         "source": urllib.parse.urlparse(url).netloc.replace("www.","") if url else "Web",
         "url": url,
         "summary_original": content[:360],
@@ -157,6 +175,13 @@ for q in QUERIES:
         all_results.extend(response.get("results",[]))
     except Exception as e:
         print(f"Search failed: {q}: {e}")
+
+for q, domains in CLASSIFIED_QUERIES:
+    try:
+        response=tavily(q, include_domains=domains)
+        all_results.extend(response.get("results",[]))
+    except Exception as e:
+        print(f"Search failed ({domains}): {q}: {e}")
 
 seen=set(); candidates=[]
 for item in all_results:
