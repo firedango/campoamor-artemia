@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-30T12:57:38.756497+00:00",
+  "updated_at": "2026-10-31T12:31:15.801306+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -9,7 +9,55 @@
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
+      "name": "🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
+      "zone": "Torrevieja",
+      "budget_min": 100000,
+      "budget_max": 120000,
+      "phone": "",
+      "email": "",
+      "source": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=eJGIwGDdQsc",
+      "summary_original": "# 🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?\n## Channel: Paradise world videos\n22.6K subscribers\n31 likes\n\n### Description\n2,273 views\nPosted: 2026-10-26\nTorrevieja, on Spain’s beautiful Costa Blanca, looking at 4 bank-debt properties that could offer interesting investment opportunities! 🏡🔑\n\nAre you looking to buy a proper",
+      "summary_it": "",
+      "summary": "# 🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?\n## Channel: Paradise world videos\n22.6K subscribers\n31 likes\n\n### Description\n2,273 views\nPosted: 2026-10-26\nTorrevieja, on Spain’s beautiful Costa Blanca, looking at 4 bank-debt properties that could offer interesting investment opportunities! 🏡🔑\n\nAre you looking to buy a proper",
+      "score": 90,
+      "priority": "Alta",
+      "status": "Da verificare",
+      "id": "TRV-0001"
+    },
+    {
+      "date": "2026-10-31",
+      "name": "Investment property deals from funds in Spain",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Investimento immobiliare",
+      "request": "Investitore con capitale/liquidità",
+      "purpose": "Investimento",
+      "zone": "Torrevieja",
+      "budget_min": 230000,
+      "budget_max": 230000,
+      "phone": "",
+      "email": "",
+      "source": "facebook.com",
+      "url": "https://www.facebook.com/100020948263848/posts/-investment-property-deals-from-funds-in-spain-interesting-property-opportunitie/2106562723385316",
+      "summary_original": "We have properties for sale from investment funds. Current offers: Torrevieja — €230,000 … contact us on WhatsApp: +34 613 643 529",
+      "summary_it": "",
+      "summary": "We have properties for sale from investment funds. Current offers: Torrevieja — €230,000 … contact us on WhatsApp: +34 613 643 529",
+      "score": 90,
+      "priority": "Alta",
+      "status": "Da verificare",
+      "id": "TRV-0002"
+    },
+    {
+      "date": "2026-10-31",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -30,10 +78,10 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0001"
+      "id": "TRV-0003"
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -54,10 +102,10 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0002"
+      "id": "TRV-0004"
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "name": "75 m² Op zoek naar een fijne woning in Spanje voor ...",
       "profile": "",
       "country": "Da verificare",
@@ -78,11 +126,11 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0003"
+      "id": "TRV-0005"
     },
     {
-      "date": "2026-10-30",
-      "name": "Se busca vivienda para comprar de particular ,el que tenga ...",
+      "date": "2026-10-31",
+      "name": "Busco piso en Torrevieja para un cliente (directamente del ...",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
@@ -95,17 +143,17 @@
       "phone": "",
       "email": "",
       "source": "facebook.com",
-      "url": "https://www.facebook.com/groups/690966274290011/posts/28827878406838754",
-      "summary_original": "¡BUSCO CASA PARA COMPRAR EN TORREVIEJA! Hola, estoy buscando una casa o chalet en Torrevieja (y alrededores) para comprar directamente como particular.",
+      "url": "https://www.facebook.com/groups/556338997880052/posts/3507522709428318",
+      "summary_original": "Busco un piso para comprar para un cliente. ✓ 1 dormitorio ✓ Presupuesto: hasta 95.000 € ✓ Solo venta directa del propietario, sin intermediarios ✓ Zona",
       "summary_it": "",
-      "summary": "¡BUSCO CASA PARA COMPRAR EN TORREVIEJA! Hola, estoy buscando una casa o chalet en Torrevieja (y alrededores) para comprar directamente como particular.",
+      "summary": "Busco un piso para comprar para un cliente. ✓ 1 dormitorio ✓ Presupuesto: hasta 95.000 € ✓ Solo venta directa del propietario, sin intermediarios ✓ Zona",
       "score": 75,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0004"
+      "id": "TRV-0006"
     },
     {
-      "date": "2026-10-30",
+      "date": "2026-10-31",
       "name": "New builds in Torrevieja: 652 properties available. ...",
       "profile": "",
       "country": "Da verificare",
@@ -126,37 +174,13 @@
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0005"
-    },
-    {
-      "date": "2026-10-30",
-      "name": "Real estate agency in Spain - Granfield Estate",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con capitale/liquidità",
-      "purpose": "Investimento",
-      "zone": "Torrevieja",
-      "budget_min": 300000,
-      "budget_max": 300000,
-      "phone": "",
-      "email": "",
-      "source": "granfield-estate.com",
-      "url": "https://granfield-estate.com/no/properties/los-montesinos/house",
-      "summary_original": "Granfield Estate\n\n### CITIES\n\n### FEATURES\n\n### TYPE\n\n### EASY WAY TO FIND\n\n### PROPIEDADES\n\n### RESIDENCIAS\n\n### SERVICES\n\n### PRICES\n\nen\nRU\nES\nUA\nFR\nDE\nFI\nSE\nNO\nPL\nNL\nIT\nGranfield Estate — Real Estate in Spain\n\n### CITIES\n\n### FEATURES\n\n### TYPE\n\n### EASY WAY TO FIND\n\n### PROPIEDADES\n\n### RESIDENCIAS\n\n### SERVICES\n\n### PRICES\n\nen\nRU\nES\nUA\nFR\nDE\nFI\nSE\nNO\nPL",
-      "summary_it": "",
-      "summary": "Granfield Estate\n\n### CITIES\n\n### FEATURES\n\n### TYPE\n\n### EASY WAY TO FIND\n\n### PROPIEDADES\n\n### RESIDENCIAS\n\n### SERVICES\n\n### PRICES\n\nen\nRU\nES\nUA\nFR\nDE\nFI\nSE\nNO\nPL\nNL\nIT\nGranfield Estate — Real Estate in Spain\n\n### CITIES\n\n### FEATURES\n\n### TYPE\n\n### EASY WAY TO FIND\n\n### PROPIEDADES\n\n### RESIDENCIAS\n\n### SERVICES\n\n### PRICES\n\nen\nRU\nES\nUA\nFR\nDE\nFI\nSE\nNO\nPL",
-      "score": 60,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0006"
+      "id": "TRV-0007"
     }
   ],
   "market": {
-    "sources_checked": 99,
-    "new_signals": 6,
-    "high_priority": 3,
+    "sources_checked": 101,
+    "new_signals": 7,
+    "high_priority": 5,
     "with_contact": 0,
     "population": 113453,
     "foreign_residents": 62000,
@@ -200,7 +224,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-10-30T12:57:38.756497+00:00",
+    "last_tavily_run": "2026-10-31T12:31:15.801306+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
