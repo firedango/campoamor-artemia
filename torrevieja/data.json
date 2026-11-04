@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03T14:15:43.905134+00:00",
+  "updated_at": "2026-11-04T14:33:13.685938+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -9,7 +9,7 @@
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "name": "Appartement in Torrevieja voor €168.000 | 2 Slaapkamers op 400 m van het Strand",
       "profile": "",
       "country": "Da verificare",
@@ -33,7 +33,7 @@
       "id": "TRV-0001"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "name": "Looking to buy an apartment (ático) Torrevieja/Orihuela ...",
       "profile": "",
       "country": "Da verificare",
@@ -57,7 +57,7 @@
       "id": "TRV-0002"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "name": "Torrevieja Property Investment: Best Areas to Buy",
       "profile": "",
       "country": "Da verificare",
@@ -81,31 +81,7 @@
       "id": "TRV-0003"
     },
     {
-      "date": "2026-11-03",
-      "name": "🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": 100000,
-      "budget_max": 120000,
-      "phone": "",
-      "email": "",
-      "source": "youtube.com",
-      "url": "https://www.youtube.com/watch?v=eJGIwGDdQsc",
-      "summary_original": "# 🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?\n## Channel: Paradise world videos\n22.6K subscribers\n31 likes\n\n### Description\n2,273 views\nPosted: 2026-10-26\nTorrevieja, on Spain’s beautiful Costa Blanca, looking at 4 bank-debt properties that could offer interesting investment opportunities! 🏡🔑\n\nAre you looking to buy a proper",
-      "summary_it": "",
-      "summary": "# 🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?\n## Channel: Paradise world videos\n22.6K subscribers\n31 likes\n\n### Description\n2,273 views\nPosted: 2026-10-26\nTorrevieja, on Spain’s beautiful Costa Blanca, looking at 4 bank-debt properties that could offer interesting investment opportunities! 🏡🔑\n\nAre you looking to buy a proper",
-      "score": 90,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0004"
-    },
-    {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -126,10 +102,10 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0005"
+      "id": "TRV-0004"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -150,10 +126,10 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0006"
+      "id": "TRV-0005"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "name": "3-Zimmer-Wohnung in Torrevieja kaufen | 87m² | 435.000 €",
       "profile": "",
       "country": "Da verificare",
@@ -174,10 +150,10 @@
       "score": 80,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0007"
+      "id": "TRV-0006"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "name": "Beste plaatsen aan de Costa Blanca: top 6 voor kopers",
       "profile": "",
       "country": "Da verificare",
@@ -198,10 +174,10 @@
       "score": 80,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0008"
+      "id": "TRV-0007"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
       "name": "🌊 Nieuwbouw in Torrevieja vanaf €225.000, op slechts 1 ...",
       "profile": "",
       "country": "Da verificare",
@@ -222,11 +198,11 @@
       "score": 80,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0009"
+      "id": "TRV-0008"
     },
     {
-      "date": "2026-11-03",
-      "name": "Compartir piso trans",
+      "date": "2026-11-04",
+      "name": "🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
@@ -238,18 +214,66 @@
       "budget_max": null,
       "phone": "",
       "email": "",
-      "source": "milanuncios.com",
-      "url": "https://www.milanuncios.com/pisos-compartidos/trans.htm",
-      "summary_original": "Soy Deborah trans brasileña casada con español. Busco habitación o piso para alquilar en Torrevieja. OBS: Soy fumadora y trabajo como masajista. Busco piso en",
+      "source": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=eJGIwGDdQsc",
+      "summary_original": "# 🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?\n## Channel: Paradise world videos\n22.6K subscribers\n31 likes\n\n### Description\n2,273 views\nPosted: 2026-10-26\nTorrevieja, on Spain’s beautiful Costa Blanca, looking at 4 bank-debt properties that could offer interesting investment opportunities! 🏡🔑\n\nAre you looking to buy a proper",
       "summary_it": "",
-      "summary": "Soy Deborah trans brasileña casada con español. Busco habitación o piso para alquilar en Torrevieja. OBS: Soy fumadora y trabajo como masajista. Busco piso en",
+      "summary": "# 🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?\n## Channel: Paradise world videos\n22.6K subscribers\n31 likes\n\n### Description\n2,273 views\nPosted: 2026-10-26\nTorrevieja, on Spain’s beautiful Costa Blanca, looking at 4 bank-debt properties that could offer interesting investment opportunities! 🏡🔑\n\nAre you looking to buy a proper",
+      "score": 75,
+      "priority": "Media",
+      "status": "Da verificare",
+      "id": "TRV-0009"
+    },
+    {
+      "date": "2026-11-04",
+      "name": "Fastighetsbyrån Torrevieja",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Investimento immobiliare",
+      "request": "Investitore con capitale/liquidità",
+      "purpose": "Investimento",
+      "zone": "Torrevieja",
+      "budget_min": null,
+      "budget_max": null,
+      "phone": "",
+      "email": "",
+      "source": "facebook.com",
+      "url": "https://www.facebook.com/fastighetsbyrantorrevieja/posts/new-week-new-deals-new-dreams-fastighetsbyr%C3%A5n-costablanca-torrevieja-realestate-/1593810242790116",
+      "summary_original": "From modern apartments to luxury villas and investment opportunities, Costa Blanca remains over 20 years, we have been experts in real estate in Torrevieja and",
+      "summary_it": "",
+      "summary": "From modern apartments to luxury villas and investment opportunities, Costa Blanca remains over 20 years, we have been experts in real estate in Torrevieja and",
       "score": 75,
       "priority": "Media",
       "status": "Da verificare",
       "id": "TRV-0010"
     },
     {
-      "date": "2026-11-03",
+      "date": "2026-11-04",
+      "name": "New builds in Torrevieja: 646 properties available. ...",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Investimento immobiliare",
+      "request": "Investitore con capitale/liquidità",
+      "purpose": "Investimento",
+      "zone": "Torrevieja",
+      "budget_min": null,
+      "budget_max": null,
+      "phone": "",
+      "email": "",
+      "source": "wtgspain.com",
+      "url": "https://wtgspain.com/torrevieja/new-build",
+      "summary_original": "Buying new builds properties in Torrevieja, Spain. We have 646 properties with the most attractive price on the market. Contact the best real estate agency",
+      "summary_it": "",
+      "summary": "Buying new builds properties in Torrevieja, Spain. We have 646 properties with the most attractive price on the market. Contact the best real estate agency",
+      "score": 65,
+      "priority": "Media",
+      "status": "Da verificare",
+      "id": "TRV-0011"
+    },
+    {
+      "date": "2026-11-04",
       "name": "Wiederverkauf » Apartment/Flat » Torrevieja",
       "profile": "",
       "country": "Da verificare",
@@ -270,37 +294,37 @@
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0011"
+      "id": "TRV-0012"
     },
     {
-      "date": "2026-11-03",
-      "name": "New builds in Torrevieja: 646 properties available. ...",
+      "date": "2026-11-04",
+      "name": "▷ Blog | Kup, sprzedaj i wynajmij domy na Costa Blanca",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con capitale/liquidità",
-      "purpose": "Investimento",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
       "zone": "Torrevieja",
       "budget_min": null,
       "budget_max": null,
       "phone": "",
       "email": "",
-      "source": "wtgspain.com",
-      "url": "https://wtgspain.com/torrevieja/new-build",
-      "summary_original": "Buying new builds properties in Torrevieja, Spain. We have 646 properties with the most attractive price on the market. 2 bedroom Apartment in Torrevieja",
+      "source": "costainvest.com",
+      "url": "https://costainvest.com/pl/news",
+      "summary_original": "Inwestować na Costa Blanca Sur to nie tylko kupić dom nad morzem, ale także zdecydować, jak chcesz żyć w Hiszpanii przez najbliższe lata. Dla wielu kupujących z północnej Europy ta decyzja łączy odpoczynek, łagodny klimat, czas na świeżym powietrzu i możliwość wygodnego spędzania tutaj dłuższych pobytów. Na tym właśnie polega atrakcyjność tej części...\n\n Czy",
       "summary_it": "",
-      "summary": "Buying new builds properties in Torrevieja, Spain. We have 646 properties with the most attractive price on the market. 2 bedroom Apartment in Torrevieja",
+      "summary": "Inwestować na Costa Blanca Sur to nie tylko kupić dom nad morzem, ale także zdecydować, jak chcesz żyć w Hiszpanii przez najbliższe lata. Dla wielu kupujących z północnej Europy ta decyzja łączy odpoczynek, łagodny klimat, czas na świeżym powietrzu i możliwość wygodnego spędzania tutaj dłuższych pobytów. Na tym właśnie polega atrakcyjność tej części...\n\n Czy",
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0012"
+      "id": "TRV-0013"
     }
   ],
   "market": {
-    "sources_checked": 146,
-    "new_signals": 12,
-    "high_priority": 9,
+    "sources_checked": 145,
+    "new_signals": 13,
+    "high_priority": 8,
     "with_contact": 0,
     "population": 113453,
     "foreign_residents": 62000,
@@ -344,7 +368,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-11-03T14:15:43.905134+00:00",
+    "last_tavily_run": "2026-11-04T14:33:13.685938+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
