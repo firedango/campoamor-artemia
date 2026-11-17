@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T15:48:10.473986+00:00",
+  "updated_at": "2026-11-17T16:01:12.720616+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -9,7 +9,7 @@
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -33,7 +33,7 @@
       "id": "TRV-0001"
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "name": "TENGO COMPRADOR! Busco vivienda en Torrevieja",
       "profile": "",
       "country": "Da verificare",
@@ -57,55 +57,7 @@
       "id": "TRV-0002"
     },
     {
-      "date": "2026-11-16",
-      "name": "Real Estate in Spain: Apartment in Torrevieja 800m from the sea | 2 bedrooms for €147,900",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": 147900,
-      "budget_max": 147900,
-      "phone": "",
-      "email": "",
-      "source": "youtube.com",
-      "url": "https://www.youtube.com/watch?v=L1IvJvBPLZw&vl=en-US",
-      "summary_original": "Located in the Nueva Torrevieja district\n\nThe location is ideal for enjoying life on the Costa Blanca. Nearby, you'll find schools, children's play areas, shops, and public transport, providing easy access to the city's main districts.\n\nThis apartment in Torrevieja represents a great opportunity for those looking to buy property in Spain, whether for year-ro",
-      "summary_it": "",
-      "summary": "Located in the Nueva Torrevieja district\n\nThe location is ideal for enjoying life on the Costa Blanca. Nearby, you'll find schools, children's play areas, shops, and public transport, providing easy access to the city's main districts.\n\nThis apartment in Torrevieja represents a great opportunity for those looking to buy property in Spain, whether for year-ro",
-      "score": 90,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0003"
-    },
-    {
-      "date": "2026-11-16",
-      "name": "🎅 MA CHI SONO IO, BABBO NATALE?!\n\nVuoi una casa nuova a Torrevieja, in città, con tutti i servizi raggiungibil",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": 235000,
-      "budget_max": 440000,
-      "phone": "",
-      "email": "",
-      "source": "facebook.com",
-      "url": "https://www.facebook.com/heavenhousecostablanca/videos/-ma-chi-sono-io-babbo-natalevuoi-una-casa-nuova-a-torrevieja-in-citt%C3%A0-con-tutti-/1593621256134647",
-      "summary_original": "C'è chi cerca una seconda casa vicino al mare. 🏡 Chi vuole trasferirsi definitivamente. 🌴 Chi desidera una villa indipendente. 💶 E chi valuta un investimento immobiliare. Tutti partecipano al mercato della provincia di Alicante, ma non cercano necessariamente lo stesso tipo di immobile. Ed è proprio qui che il dato diventa interessante. Se vuoi comprare casa",
-      "summary_it": "",
-      "summary": "C'è chi cerca una seconda casa vicino al mare. 🏡 Chi vuole trasferirsi definitivamente. 🌴 Chi desidera una villa indipendente. 💶 E chi valuta un investimento immobiliare. Tutti partecipano al mercato della provincia di Alicante, ma non cercano necessariamente lo stesso tipo di immobile. Ed è proprio qui che il dato diventa interessante. Se vuoi comprare casa",
-      "score": 90,
-      "priority": "Alta",
-      "status": "Da verificare",
-      "id": "TRV-0004"
-    },
-    {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "name": "🌊 Nieuwbouw in Torrevieja vanaf €225.000, op slechts 1 km van zee! ☀️🇪🇸\n\nOp zoek naar een modern appartement v",
       "profile": "",
       "country": "Da verificare",
@@ -126,10 +78,10 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0005"
+      "id": "TRV-0003"
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -143,17 +95,17 @@
       "phone": "",
       "email": "",
       "source": "instagram.com",
-      "url": "https://www.instagram.com/p/DfXnikkjLnB",
-      "summary_original": "🏡 Nieuwe toeristische lancering in Torrevieja – vanaf €239.900  \n  \nEen nieuw concept voor wie wil investeren in Spaans vastgoed én de verhuur professioneel wil laten verzorgen. Dit toeristische appartementencomplex ligt op slechts 300 meter van zee en wordt volledig ingericht en verhuurklaar opgeleverd.  \n  \n✔️ 1, 2 of 3 slaapkamers  \n✔️ Appartementen en pe",
+      "url": "https://www.instagram.com/p/De1E40dltKs",
+      "summary_original": "NIEUW IN TORREVIEJA | ALMAIA LIVING ☀️  \n  \n🏡 Appartement kopen én inkomsten genereren uit toeristische verhuur?  \n  \nOntdek Almaia Living in Torrevieja: een nieuw project met appartementen die vanaf het begin zijn ontworpen voor professionele toeristische exploitatie. Ideaal voor wie wil investeren in vastgoed aan de Costa Blanca én zelf ook wil genieten va",
       "summary_it": "",
-      "summary": "🏡 Nieuwe toeristische lancering in Torrevieja – vanaf €239.900  \n  \nEen nieuw concept voor wie wil investeren in Spaans vastgoed én de verhuur professioneel wil laten verzorgen. Dit toeristische appartementencomplex ligt op slechts 300 meter van zee en wordt volledig ingericht en verhuurklaar opgeleverd.  \n  \n✔️ 1, 2 of 3 slaapkamers  \n✔️ Appartementen en pe",
+      "summary": "NIEUW IN TORREVIEJA | ALMAIA LIVING ☀️  \n  \n🏡 Appartement kopen én inkomsten genereren uit toeristische verhuur?  \n  \nOntdek Almaia Living in Torrevieja: een nieuw project met appartementen die vanaf het begin zijn ontworpen voor professionele toeristische exploitatie. Ideaal voor wie wil investeren in vastgoed aan de Costa Blanca én zelf ook wil genieten va",
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0006"
+      "id": "TRV-0004"
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "name": "🌊 APPARTEMENT TE KOOP – **TORREVIEJA",
       "profile": "",
       "country": "Da verificare",
@@ -174,34 +126,34 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0007"
+      "id": "TRV-0005"
     },
     {
-      "date": "2026-11-16",
-      "name": "🔥 I HAVE A BUYER! Looking for a property in Torrevieja ...",
+      "date": "2026-11-17",
+      "name": "📲675 201 488 escríbeme por whattsapp y te ayudo a ...",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con capitale/liquidità",
-      "purpose": "Investimento",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
       "zone": "Torrevieja",
-      "budget_min": 125000,
-      "budget_max": 125000,
+      "budget_min": 100000,
+      "budget_max": 100000,
       "phone": "",
       "email": "",
-      "source": "facebook.com",
-      "url": "https://www.facebook.com/olga.betterlive/videos/-i-have-a-buyer-looking-for-a-property-in-torreviejamy-client-is-ready-to-buy-an/2257200951679127",
-      "summary_original": "This is a real estate advertisement for a 2-bedroom, 1-bathroom apartment for sale in Torrevieja, Spain, priced at e125,000. The property is located in a 62 m²",
+      "source": "instagram.com",
+      "url": "https://www.instagram.com/reel/De9GKNWIuT_",
+      "summary_original": "Busco vivienda en Torrevieja Tengo un cliente que quiere comprar y busca directamente a propietarios: 📍 Torrevieja 💶 Hasta 100.000 € 🌊. WhatsApp: +34 600 668",
       "summary_it": "",
-      "summary": "This is a real estate advertisement for a 2-bedroom, 1-bathroom apartment for sale in Torrevieja, Spain, priced at e125,000. The property is located in a 62 m²",
+      "summary": "Busco vivienda en Torrevieja Tengo un cliente que quiere comprar y busca directamente a propietarios: 📍 Torrevieja 💶 Hasta 100.000 € 🌊. WhatsApp: +34 600 668",
       "score": 80,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0008"
+      "id": "TRV-0006"
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "name": "🌊 Nieuwbouw in Torrevieja vanaf €225.000, op slechts 1 km van zee! ☀️🇪🇸\n\nOp zoek naar een modern appartement v",
       "profile": "",
       "country": "Da verificare",
@@ -222,11 +174,11 @@
       "score": 80,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0009"
+      "id": "TRV-0007"
     },
     {
-      "date": "2026-11-16",
-      "name": "CHEAP PROPERTY IN SPAIN? 🇪🇸 I’m Checking Out 4 Bank-Related Properties!",
+      "date": "2026-11-17",
+      "name": "🔥 TENGO COMPRADOR! Busco vivienda en Torrevieja ...",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
@@ -238,42 +190,18 @@
       "budget_max": null,
       "phone": "",
       "email": "",
-      "source": "youtube.com",
-      "url": "https://www.youtube.com/watch?v=z6ludaCHgws",
-      "summary_original": "# CHEAP PROPERTY IN SPAIN? 🇪🇸 I’m Checking Out 4 Bank-Related Properties!\n## Channel: Paradise world videos\n22.7K subscribers\n26 likes\n\n### Description\n2,311 views\nPosted: 2026-10-28\n🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?Today I’m in Torrevieja, on Spain’s beautiful Costa Blanca, looking at 4 bank-debt properties that c",
+      "source": "facebook.com",
+      "url": "https://www.facebook.com/olga.betterlive/videos/-tengo-comprador-busco-vivienda-en-torreviejatengo-un-cliente-que-quiere-comprar/1915217512832514",
+      "summary_original": "Escríbeme. Te presento un comprador real y te acompaño hasta la notaría. WhatsApp: +34 600 668 202 Olga Betterlive · Tairix Invest #Torrevieja #VendoPiso #",
       "summary_it": "",
-      "summary": "# CHEAP PROPERTY IN SPAIN? 🇪🇸 I’m Checking Out 4 Bank-Related Properties!\n## Channel: Paradise world videos\n22.7K subscribers\n26 likes\n\n### Description\n2,311 views\nPosted: 2026-10-28\n🇪🇸 4 BANK-OWNED PROPERTIES IN TORREVIEJA! 💰 Could These Be Great Investments?Today I’m in Torrevieja, on Spain’s beautiful Costa Blanca, looking at 4 bank-debt properties that c",
+      "summary": "Escríbeme. Te presento un comprador real y te acompaño hasta la notaría. WhatsApp: +34 600 668 202 Olga Betterlive · Tairix Invest #Torrevieja #VendoPiso #",
       "score": 75,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0010"
+      "id": "TRV-0008"
     },
     {
-      "date": "2026-11-16",
-      "name": "🏡 ALICANTE: QUASI UNA CASA SU DUE VIENE ACQUISTATA DA STRANIERI!",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Acquisto",
-      "request": "Acquisto immobile",
-      "purpose": "Da qualificare",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "youtube.com",
-      "url": "https://www.youtube.com/shorts/ZzwtW1OtYQw",
-      "summary_original": "Ma attenzione: questo dato non racconta tutta la storia.\n\nInnanzitutto, non significa che quasi metà delle case venga acquistata da persone che vivono all'estero. Le statistiche comprendono anche cittadini stranieri già residenti in Spagna.\n\nE soprattutto, non significa che tutte le proprietà siano richieste allo stesso modo.\n\n🏖️ C'è chi cerca una seconda ca",
-      "summary_it": "",
-      "summary": "Ma attenzione: questo dato non racconta tutta la storia.\n\nInnanzitutto, non significa che quasi metà delle case venga acquistata da persone che vivono all'estero. Le statistiche comprendono anche cittadini stranieri già residenti in Spagna.\n\nE soprattutto, non significa che tutte le proprietà siano richieste allo stesso modo.\n\n🏖️ C'è chi cerca una seconda ca",
-      "score": 75,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0011"
-    },
-    {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "name": "▷ Dutch Real Estate Agent Torrevieja | South Costa",
       "profile": "",
       "country": "Da verificare",
@@ -294,10 +222,10 @@
       "score": 75,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0012"
+      "id": "TRV-0009"
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "name": "New builds in Torrevieja: 626 properties available. ...",
       "profile": "",
       "country": "Da verificare",
@@ -318,11 +246,35 @@
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0013"
+      "id": "TRV-0010"
     },
     {
-      "date": "2026-11-16",
-      "name": "🏡 Chcesz kupić nieruchomość na Costa Blanca i zarabiać ...",
+      "date": "2026-11-17",
+      "name": "Exklusive Luxusvilla in Spanien an der Costa Blanca – Traumhaus in Ciudad Quesada | 880.000 €",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
+      "zone": "Torrevieja",
+      "budget_min": null,
+      "budget_max": null,
+      "phone": "",
+      "email": "",
+      "source": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=ZoLbiR5-j48",
+      "summary_original": "#spanienimmobilien #alegriaimmobilien #immobiliespanienkaufen #immobilientorrevieja #immobilienalicante #immobilienspanien #alegriarealestate\n#immobiliencostablanca #immobilienspanienammeer #appartementspanien #immobilieninvestment #hauskaufenspanien #bungalowammeer #wohnungspanienkaufen [...] 💁‍♂️ Vertriebsleiter kontaktieren: \nRENATO 🇩🇪\n📲 \n📲 +34 687 42 44 ",
+      "summary_it": "",
+      "summary": "#spanienimmobilien #alegriaimmobilien #immobiliespanienkaufen #immobilientorrevieja #immobilienalicante #immobilienspanien #alegriarealestate\n#immobiliencostablanca #immobilienspanienammeer #appartementspanien #immobilieninvestment #hauskaufenspanien #bungalowammeer #wohnungspanienkaufen [...] 💁‍♂️ Vertriebsleiter kontaktieren: \nRENATO 🇩🇪\n📲 \n📲 +34 687 42 44 ",
+      "score": 65,
+      "priority": "Media",
+      "status": "Da verificare",
+      "id": "TRV-0011"
+    },
+    {
+      "date": "2026-11-17",
+      "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
@@ -336,16 +288,16 @@
       "email": "",
       "source": "instagram.com",
       "url": "https://www.instagram.com/reel/Dew51KYBRt0",
-      "summary_original": "Torrevieja i Orihuela Costa — interesujące rynki do porównania, jeśli szukasz nieruchomości w południowej części Costa Blanca.",
+      "summary_original": "🏡 Chcesz kupić nieruchomość na Costa Blanca i zarabiać na wynajmie? Zacznij od wyboru odpowiedniej lokalizacji.  \n  \nNie ma jednego miejsca, które będzie najlepsze dla każdego inwestora. Wszystko zależy od tego, komu chcesz wynajmować i jakiego modelu najmu szukasz.  \n  \n☀️ Benidorm i Calpe — warto sprawdzić przy najmie wakacyjnym.  \n  \n🌴 Torrevieja i Orihue",
       "summary_it": "",
-      "summary": "Torrevieja i Orihuela Costa — interesujące rynki do porównania, jeśli szukasz nieruchomości w południowej części Costa Blanca.",
+      "summary": "🏡 Chcesz kupić nieruchomość na Costa Blanca i zarabiać na wynajmie? Zacznij od wyboru odpowiedniej lokalizacji.  \n  \nNie ma jednego miejsca, które będzie najlepsze dla każdego inwestora. Wszystko zależy od tego, komu chcesz wynajmować i jakiego modelu najmu szukasz.  \n  \n☀️ Benidorm i Calpe — warto sprawdzić przy najmie wakacyjnym.  \n  \n🌴 Torrevieja i Orihue",
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0014"
+      "id": "TRV-0012"
     },
     {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "name": "▷ Vivee | Estate Agents in Orihuela Costa Spain",
       "profile": "",
       "country": "Da verificare",
@@ -366,13 +318,13 @@
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0015"
+      "id": "TRV-0013"
     }
   ],
   "market": {
-    "sources_checked": 135,
-    "new_signals": 15,
-    "high_priority": 9,
+    "sources_checked": 128,
+    "new_signals": 13,
+    "high_priority": 7,
     "with_contact": 0,
     "population": 113453,
     "foreign_residents": 62000,
@@ -416,7 +368,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-11-16T15:48:10.473986+00:00",
+    "last_tavily_run": "2026-11-17T16:01:12.720616+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
