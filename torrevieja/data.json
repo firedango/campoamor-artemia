@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20T15:28:13.252334+00:00",
+  "updated_at": "2026-11-21T14:40:22.628808+00:00",
   "area": "Torrevieja",
   "currency": "EUR",
   "budget_filter": {
@@ -9,7 +9,7 @@
   "translation_policy": "Dashboard in italiano; testo originale conservato per verifica",
   "leads": [
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "name": "1. BANKS ARE DESPERATE! Properties in Torrevieja for HALF PRICE!",
       "profile": "",
       "country": "Da verificare",
@@ -33,7 +33,31 @@
       "id": "TRV-0001"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
+      "name": "Looking for Property in Spain? This Torrevieja Apartment Costs Just €129,900!",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
+      "zone": "Torrevieja",
+      "budget_min": 129900,
+      "budget_max": 129900,
+      "phone": "",
+      "email": "",
+      "source": "youtube.com",
+      "url": "https://www.youtube.com/watch?v=8wvHAtzQyFk",
+      "summary_original": "🏡 PROPERTY DETAILS:\n📍 Location: Torrevieja, Costa Blanca, Spain\n💶 Price: €129,900 (ID A11567)\n🛏 Bedrooms: 1\n🛁 Bathrooms: 1\n🏢 Floor: 3rd floor\n🏖 Beach: Approximately 300–400 metres away\n🍽 Renovated kitchen with new appliances\n🚿 Updated bathroom with new shower, sink and toilet\n🛋 Furnished living room with sofa, TV and dining area\n🌿 Enclosed terrace\n✨ Partiall",
+      "summary_it": "",
+      "summary": "🏡 PROPERTY DETAILS:\n📍 Location: Torrevieja, Costa Blanca, Spain\n💶 Price: €129,900 (ID A11567)\n🛏 Bedrooms: 1\n🛁 Bathrooms: 1\n🏢 Floor: 3rd floor\n🏖 Beach: Approximately 300–400 metres away\n🍽 Renovated kitchen with new appliances\n🚿 Updated bathroom with new shower, sink and toilet\n🛋 Furnished living room with sofa, TV and dining area\n🌿 Enclosed terrace\n✨ Partiall",
+      "score": 90,
+      "priority": "Alta",
+      "status": "Da verificare",
+      "id": "TRV-0002"
+    },
+    {
+      "date": "2026-11-21",
       "name": "Instagram",
       "profile": "",
       "country": "Da verificare",
@@ -54,34 +78,10 @@
       "score": 90,
       "priority": "Alta",
       "status": "Da verificare",
-      "id": "TRV-0002"
-    },
-    {
-      "date": "2026-11-20",
-      "name": "📢 New and fully furnished apartment for sale in Torrevieja, La Mata district 🇪🇸🌴⛱️ | Facebook",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con capitale/liquidità",
-      "purpose": "Investimento",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "facebook.com",
-      "url": "https://www.facebook.com/groups/374687856477768/posts/2228266611119874",
-      "summary_original": "Image 14: 🚗 Private parking space on the premises with automatic gates opened by remote control.\n\nImage 15: ✨️ Property features:\n\nImage 16: 🪟 3rd floor\n\nImage 17: 🛌 Bedrooms - 2\n\nImage 18: 🚿Modern bathrooms - 2\n\nImage 19: 🌀 System Air conditioning\n\nImage 20: 🏠Total area - 78 m²\n\nImage 21: ✅ Bright living room, combined with a fully equipped kitchen with new",
-      "summary_it": "",
-      "summary": "Image 14: 🚗 Private parking space on the premises with automatic gates opened by remote control.\n\nImage 15: ✨️ Property features:\n\nImage 16: 🪟 3rd floor\n\nImage 17: 🛌 Bedrooms - 2\n\nImage 18: 🚿Modern bathrooms - 2\n\nImage 19: 🌀 System Air conditioning\n\nImage 20: 🏠Total area - 78 m²\n\nImage 21: ✅ Bright living room, combined with a fully equipped kitchen with new",
-      "score": 85,
-      "priority": "Alta",
-      "status": "Da verificare",
       "id": "TRV-0003"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "name": "Torrevieja, Spain: Costa Blanca Town Guide | ValenciaMove",
       "profile": "",
       "country": "Da verificare",
@@ -105,7 +105,7 @@
       "id": "TRV-0004"
     },
     {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "name": "CHEAP PROPERTY IN SPAIN? 🇪🇸 I’m Checking Out 4 Bank-Related Properties!",
       "profile": "",
       "country": "Da verificare",
@@ -129,31 +129,7 @@
       "id": "TRV-0005"
     },
     {
-      "date": "2026-11-20",
-      "name": "6 bedroom detached villa for sale in Valencia, Alicante, Torrevieja, Spain",
-      "profile": "",
-      "country": "Da verificare",
-      "language": "Da verificare",
-      "intent": "Investimento immobiliare",
-      "request": "Investitore con capitale/liquidità",
-      "purpose": "Investimento",
-      "zone": "Torrevieja",
-      "budget_min": null,
-      "budget_max": null,
-      "phone": "",
-      "email": "",
-      "source": "rightmove.co.uk",
-      "url": "https://www.rightmove.co.uk/properties/95605779?currencyCode=GBP",
-      "summary_original": "no liability arising from any reliance made by any reader or person to whom this information is made available to. You must perform your own research and seek independent professional advice before making any decision to purchase or invest in overseas property. [...] This is a property advertisement provided and maintained by Feriebolig Utland Ans, Spain (re",
-      "summary_it": "",
-      "summary": "no liability arising from any reliance made by any reader or person to whom this information is made available to. You must perform your own research and seek independent professional advice before making any decision to purchase or invest in overseas property. [...] This is a property advertisement provided and maintained by Feriebolig Utland Ans, Spain (re",
-      "score": 75,
-      "priority": "Media",
-      "status": "Da verificare",
-      "id": "TRV-0006"
-    },
-    {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "name": "Lirice Real Estate on Facebook: \"NIEUW IN TORREVIEJA | ALMAIA LIVING ☀️ 🏡 Appartement kopen én inkomsten gener",
       "profile": "",
       "country": "Da verificare",
@@ -174,11 +150,11 @@
       "score": 75,
       "priority": "Media",
       "status": "Da verificare",
-      "id": "TRV-0007"
+      "id": "TRV-0006"
     },
     {
-      "date": "2026-11-20",
-      "name": "Chcesz kupić lub sprzedać mieszkanie w słonecznej Torrevieja? 🇪🇸 Skontaktuj się ze mną, pomoże Ci przejść prze",
+      "date": "2026-11-21",
+      "name": "▷ Dutch Real Estate Agent Torrevieja | South Costa",
       "profile": "",
       "country": "Da verificare",
       "language": "Da verificare",
@@ -190,11 +166,35 @@
       "budget_max": null,
       "phone": "",
       "email": "",
-      "source": "facebook.com",
-      "url": "https://www.facebook.com/61558665836321/videos/chcesz-kupi%C4%87-lub-sprzeda%C4%87-mieszkanie-w-s%C5%82onecznej-torrevieja-skontaktuj-si%C4%99-ze-m/1112191275043553",
-      "summary_original": "Log In\n\nLog In\n\nForgot Account?\n\n# Video\n\nHome\n\nLive\n\nReels\n\nExplore\n\nMore\n\nHome\n\nLive\n\nReels\n\nExplore\n\nImage 1\n\nVideo 1\n\n0:00 / 1:39\n\nChcesz kupić lub sprzedać mieszkanie w słonecznej Torrevieja? 🇪🇸 Skontaktuj się ze mną, pomoże Ci przejść przez cały proces bezpiecznie i bez stresu! 🏡 📲 WhatsApp: +34 686 07 26 09 Zaobserwuj mój profil i napisz „KATALOG” w k",
+      "source": "primeestate.es",
+      "url": "https://primeestate.es/dutch-real-estate-agent-torrevieja.html",
+      "summary_original": "In addition, Torrevieja is attractive for those who want to buy property in Spain with a practical outlook, because it offers a consolidated environment, good connections to other areas of interest and proximity to golf courses, marinas and highly sought-after coastal towns. If you are also exploring other areas, you may be interested in learning about the C",
       "summary_it": "",
-      "summary": "Log In\n\nLog In\n\nForgot Account?\n\n# Video\n\nHome\n\nLive\n\nReels\n\nExplore\n\nMore\n\nHome\n\nLive\n\nReels\n\nExplore\n\nImage 1\n\nVideo 1\n\n0:00 / 1:39\n\nChcesz kupić lub sprzedać mieszkanie w słonecznej Torrevieja? 🇪🇸 Skontaktuj się ze mną, pomoże Ci przejść przez cały proces bezpiecznie i bez stresu! 🏡 📲 WhatsApp: +34 686 07 26 09 Zaobserwuj mój profil i napisz „KATALOG” w k",
+      "summary": "In addition, Torrevieja is attractive for those who want to buy property in Spain with a practical outlook, because it offers a consolidated environment, good connections to other areas of interest and proximity to golf courses, marinas and highly sought-after coastal towns. If you are also exploring other areas, you may be interested in learning about the C",
+      "score": 75,
+      "priority": "Media",
+      "status": "Da verificare",
+      "id": "TRV-0007"
+    },
+    {
+      "date": "2026-11-21",
+      "name": "▷ Vivee | Estate Agents in Orihuela Costa Spain",
+      "profile": "",
+      "country": "Da verificare",
+      "language": "Da verificare",
+      "intent": "Acquisto",
+      "request": "Acquisto immobile",
+      "purpose": "Da qualificare",
+      "zone": "Torrevieja",
+      "budget_min": null,
+      "budget_max": null,
+      "phone": "",
+      "email": "",
+      "source": "viveesp.com",
+      "url": "https://viveesp.com/pl",
+      "summary_original": "MAINDAMA GROUP S.L. ha sido beneficiaria del Fondo Europeo de Desarrollo Regional cuyo objetivo es mejorar el uso y la calidad de las tecnologías de la información y de las comunicaciones y el acceso a las mismas y gracias al que ha podido desarrollar un proyecto de Dinamización de redes sociales, otro de Analítica web y otro de Elaboración de catálogos digi",
+      "summary_it": "",
+      "summary": "MAINDAMA GROUP S.L. ha sido beneficiaria del Fondo Europeo de Desarrollo Regional cuyo objetivo es mejorar el uso y la calidad de las tecnologías de la información y de las comunicaciones y el acceso a las mismas y gracias al que ha podido desarrollar un proyecto de Dinamización de redes sociales, otro de Analítica web y otro de Elaboración de catálogos digi",
       "score": 65,
       "priority": "Media",
       "status": "Da verificare",
@@ -202,7 +202,7 @@
     }
   ],
   "market": {
-    "sources_checked": 125,
+    "sources_checked": 127,
     "new_signals": 8,
     "high_priority": 4,
     "with_contact": 0,
@@ -248,7 +248,7 @@
         "url": "https://torrevieja.es/en/noticias/2026-05-12-torrevieja-now-has-over-113000-registered-inhabitants-and-is-consolidating-its"
       }
     ],
-    "last_tavily_run": "2026-11-20T15:28:13.252334+00:00",
+    "last_tavily_run": "2026-11-21T14:40:22.628808+00:00",
     "last_manual_research": "2026-08-27T23:25:51+02:00"
   }
 }
